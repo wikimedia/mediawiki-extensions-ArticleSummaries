@@ -1,0 +1,11 @@
+/composer.lock
+/vendor
+/node_modules
+.eslintcache
+/.stylelintcache
+
+# Coverage directories
+/coverage/
+/.nyc_output/
+/clover.xml
+/lcov.info

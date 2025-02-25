@@ -1,0 +1,54 @@
+{
+	"name": "ArticleSummaries",
+	"author": [
+		"Web Team"
+	],
+	"url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ArticleSummaries",
+	"descriptionmsg": "articlesummaries-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.42.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ArticleSummaries\\": "src/",
+        "MediaWiki\\Extension\\ArticleSummaries\\Tests\\": "tests/phpunit/"
+	},
+	"config": {
+		"ArticleSummariesEnabled": {
+			"description": "Enable the article summaries feature.",
+			"value": false
+		}
+	},
+	"HookHandlers": {
+		"ArticleSummariesHooks": {
+			"class": "MediaWiki\\Extension\\ArticleSummaries\\Hooks"
+		}
+	},
+	"Hooks": {
+		"OutputPageBeforeHTML": "ArticleSummariesHooks"
+	},
+	"MessagesDirs": {
+		"ArticleSummaries": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ArticleSummaries"
+	},
+	"ResourceModules": {
+		"ext.articleSummaries.styles": {
+			"styles": [
+				"ext.articleSummaries/styles.less"
+			]
+		},
+		"ext.articleSummaries": {
+			"packageFiles": [
+				"ext.articleSummaries/init.js"
+			],
+			"messages": []
+		}
+	},
+	"manifest_version": 2
+}

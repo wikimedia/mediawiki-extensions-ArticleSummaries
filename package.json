@@ -1,0 +1,16 @@
+{
+  "name": "ArticleSummaries",
+  "private": true,
+  "scripts": {
+    "test:lint": "eslint resources && stylelint resources/**/*.less",
+    "test:jest": "jest",
+    "test": "npm run test:lint && npm run test:jest"
+  },
+  "devDependencies": {
+    "eslint-config-wikimedia": "0.28.2",
+    "stylelint-config-wikimedia": "0.18.0"
+  },
+  "eslintIgnore": [
+    "vendor/**"
+  ]
+}
