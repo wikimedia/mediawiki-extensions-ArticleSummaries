@@ -4,7 +4,10 @@
   "scripts": {
     "test:lint": "eslint resources && stylelint resources/**/*.less",
     "test:jest": "jest",
-    "test": "npm run test:lint && npm run test:jest"
+    "test": "npm run test:lint && npm run test:jest",
+    "lint:fix": "eslint --fix resources && stylelint --fix resources/**/*.less",
+    "eslint:fix": "eslint --fix resources",
+    "stylelint:fix": "stylelint --fix resources/**/*.less"
   },
   "devDependencies": {
     "eslint-config-wikimedia": "0.28.2",

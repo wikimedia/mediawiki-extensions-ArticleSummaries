@@ -4,7 +4,7 @@
 		"Web Team"
 	],
 	"url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ArticleSummaries",
-	"descriptionmsg": "articlesummaries-desc",
+	"descriptionmsg": "article-summaries-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
@@ -17,7 +17,7 @@
 	"config": {
 		"ArticleSummariesEnabled": {
 			"description": "Enable the article summaries feature.",
-			"value": false
+			"value": true
 		}
 	},
 	"HookHandlers": {
@@ -38,16 +38,35 @@
 		"remoteExtPath": "ArticleSummaries"
 	},
 	"ResourceModules": {
-		"ext.articleSummaries.styles": {
-			"styles": [
-				"ext.articleSummaries/styles.less"
-			]
-		},
 		"ext.articleSummaries": {
+			"dependencies": [],
 			"packageFiles": [
 				"ext.articleSummaries/init.js"
 			],
 			"messages": []
+		},
+		"ext.articleSummaries.styles": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"codexStyleOnly": "true",
+			"codexComponents": [
+				"CdxButton",
+				"CdxIcon"
+			],
+			"styles": [
+				"ext.articleSummaries.styles/styles.less"
+			]
+		},
+		"ext.articleSummaries.icons": {
+			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+			"packageFiles": [
+				{
+					"name": "icons.json",
+					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
+					"callbackParam": [
+					"cdxIconNext"
+					]
+				}
+			]
 		}
 	},
 	"manifest_version": 2

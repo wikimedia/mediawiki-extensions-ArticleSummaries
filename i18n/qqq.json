@@ -4,5 +4,8 @@
 			"Web Team"
 		]
 	},
-	"articlesummaries-desc": "{{desc|name=ArticleSummaries|url=https://www.mediawiki.org/wiki/Extension:ArticleSummaries}}"
+	"articlesummaries-desc": "{{desc|name=ArticleSummaries|url=https://www.mediawiki.org/wiki/Extension:ArticleSummaries}}",
+	"show-summary-text": "{{desc|name=ArticleSummaries|url=https://www.mediawiki.org/wiki/Extension:ArticleSummaries}}",
+	"show-summary-small": "Machine-generated on {{DATE}}"
+
 }

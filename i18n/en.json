@@ -4,5 +4,7 @@
 			"Web Team"
 		]
 	},
-	"article-summaries-desc": "This is an extension that provides a summary of the article"
+	"article-summaries-desc": "This is an extension that provides a summary of the article",
+	"show-summary-text": "Read summary",
+	"show-summary-small": "Machine-generated on $1"
 }

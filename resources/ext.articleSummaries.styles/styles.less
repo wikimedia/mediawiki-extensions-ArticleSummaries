@@ -1,0 +1,44 @@
+@import 'mediawiki.skin.variables.less';
+
+// Hide banner by default
+.ext-article-summary-banner.cdx-button {
+	display: none;
+	width: 100%;
+	text-align: left;
+	margin: 0;
+	max-width: 100%;
+	background-color: @background-color-interactive-subtle;
+	border: 0;
+	padding: 8px @spacing-0 10px @spacing-75;
+}
+
+// Show only when JavaScript is enabled
+.client-js .ext-article-summary-banner.cdx-button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: stretch;
+}
+
+.ext-article-summary-text {
+	color: @color-progressive;
+	font-family: @font-family-base;
+	font-size: @font-size-medium;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.4;
+	letter-spacing: -0.048px;
+}
+
+.ext-article-summary-small {
+	color: @color-subtle;
+	font-family: @font-family-base;
+	font-size: @font-size-medium;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.cdx-icon-next {
+	.cdx-mixin-css-icon( @cdx-icon-next, @color-progressive );
+	margin-right: @spacing-75;
+}
