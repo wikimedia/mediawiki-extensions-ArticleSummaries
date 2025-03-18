@@ -12,7 +12,7 @@
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\ArticleSummaries\\": "src/",
-        "MediaWiki\\Extension\\ArticleSummaries\\Tests\\": "tests/phpunit/"
+		"MediaWiki\\Extension\\ArticleSummaries\\Tests\\": "tests/phpunit/"
 	},
 	"config": {
 		"ArticleSummariesEnabled": {
@@ -63,7 +63,7 @@
 					"name": "icons.json",
 					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
 					"callbackParam": [
-					"cdxIconNext"
+						"cdxIconNext"
 					]
 				}
 			]
