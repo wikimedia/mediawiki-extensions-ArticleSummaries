@@ -5,7 +5,13 @@
 		]
 	},
 	"articlesummaries-desc": "{{desc|name=ArticleSummaries|url=https://www.mediawiki.org/wiki/Extension:ArticleSummaries}}",
-	"show-summary-text": "{{desc|name=ArticleSummaries|url=https://www.mediawiki.org/wiki/Extension:ArticleSummaries}}",
-	"show-summary-small": "Machine-generated on {{DATE}}"
-
+	"articlesummaries-show-summary-text": "Label for the button that opens the article summary dialog",
+	"articlesummaries-show-summary-small": "Text showing when the summary was generated. Parameters:\n* $1 - The date when the summary was generated",
+	"articlesummaries-summary-overlay-footer-header": "Header text for the footer section explaining how the summary was created",
+	"articlesummaries-summary-overlay-notice": "Label indicating that this is a machine-generated summary",
+	"articlesummaries-summary-overlay-warning": "Warning label indicating the summary is unverified",
+	"articlesummaries-summary-overlay-footer-text-content": "Detailed explanation of how the summary was generated and its experimental nature",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Question asking users if the summary was helpful",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Label for the positive feedback button",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Label for the negative feedback button"
 }

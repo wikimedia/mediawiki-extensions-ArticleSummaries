@@ -62,10 +62,10 @@ class HooksTest extends MediaWikiUnitTestCase {
 		// Mock msg() method to return appropriate message objects
 		$outputPageMock->method( 'msg' )
 			->willReturnCallback( static function ( $key ) use ( $showSummaryTextMsg, $showSummarySmallMsg ) {
-				if ( $key === 'show-summary-text' ) {
+				if ( $key === 'articlesummaries-show-summary-text' ) {
 					return $showSummaryTextMsg;
 				}
-				if ( $key === 'show-summary-small' ) {
+				if ( $key === 'articlesummaries-show-summary-small' ) {
 					return $showSummarySmallMsg;
 				}
 				return null;

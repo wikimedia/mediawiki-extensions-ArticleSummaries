@@ -10,16 +10,19 @@ class ShowSummaryBanner {
 	 * @return string The generated HTML
 	 */
 	public static function getHTML( string $heading, string $text ): string {
-		return '<button class="ext-article-summary-banner cdx-button" type="button">
-				<div class="ext-article-summary-text-wrapper">
-					<div class="ext-article-summary-text">
-						' . $heading . '
+		return '<div class="ext-article-summaries-container">
+				<button id="dialog-button" class="ext-article-summary-banner cdx-button" type="button">
+					<div class="ext-article-summary-text-wrapper">
+						<div class="ext-article-summary-text">
+							' . $heading . '
+						</div>
+						<small class="ext-article-summary-small">
+							' . $text . '
+						</small>
 					</div>
-					<small class="ext-article-summary-small">
-						' . $text . '
-					</small>
-				</div>
-				<span class="cdx-icon-next"></span>
-			</button>';
+					<span class="cdx-icon-next"></span>
+				</button>
+				<div id="article-summaries-overlay"></div>
+			</div>';
 	}
 }

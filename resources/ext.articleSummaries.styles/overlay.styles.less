@@ -1,0 +1,83 @@
+@import 'mediawiki.skin.variables.less';
+
+.ext-article-summary-overlay.cdx-dialog {
+	background-color: @background-color-neutral-subtle;
+	padding: @spacing-100;
+	font-family: 'Inter', @font-family-base;
+	font-style: normal;
+
+	& > * {
+		padding: 0;
+	}
+
+	& header {
+		font-size: @font-size-medium;
+		font-weight: @font-weight-bold;
+		line-height: @line-height-medium;
+		padding-bottom: @spacing-100;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+		border-bottom: 0;
+
+		& .cdx-button {
+			margin: 0;
+		}
+	}
+
+	& .ext-article-summary-overlay-notice {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		align-self: stretch;
+
+		& p {
+			margin: 0;
+			font-weight: @font-weight-bold;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+	}
+
+	& .ext-article-summary-overlay-text {
+		font-size: @font-size-small;
+		font-weight: @font-weight-normal;
+		line-height: @line-height-medium;
+		font-family: 'Fira Code', @font-family-base;
+		padding: @spacing-50 0;
+		margin: 0;
+	}
+
+	& .ext-article-summary-overlay-feedback-question {
+		margin: @spacing-50 0;
+		font-size: @font-size-small;
+		font-weight: @font-weight-normal;
+		line-height: @line-height-small;
+	}
+
+	& .ext-article-summary-overlay-feedback-options {
+		display: flex;
+		margin-bottom: @spacing-50;
+		gap: @spacing-50;
+
+		& .ext-article-summary-overlay-yes-button,
+		& .ext-article-summary-overlay-no-button {
+			padding: @spacing-25 @spacing-75;
+		}
+	}
+
+	& .cdx-dialog__footer {
+		margin-top: @spacing-100;
+		border-top: 1px solid @border-color-base;
+
+		& h3 {
+			font-size: @font-size-small;
+			margin-top: @spacing-75;
+		}
+
+		& p {
+			margin: 0;
+		}
+	}
+}

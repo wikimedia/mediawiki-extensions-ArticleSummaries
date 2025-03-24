@@ -39,8 +39,8 @@ class Hooks {
 
 		$date = 'mm/dd/yyyy';
 
-		$bannerHeading = $out->msg( 'show-summary-text' )->text();
-		$bannerText = $out->msg( 'show-summary-small' )->params( $date )->text();
+		$bannerHeading = $out->msg( 'articlesummaries-show-summary-text' )->text();
+		$bannerText = $out->msg( 'articlesummaries-show-summary-small' )->params( $date )->text();
 
 		// Add the banner to the page content
 		$text = ShowSummaryBanner::getHTML( $bannerHeading, $bannerText ) . $text;

@@ -4,7 +4,7 @@
 		"Web Team"
 	],
 	"url": "https://www.mediawiki.org/wiki/Special:MyLanguage/Extension:ArticleSummaries",
-	"descriptionmsg": "article-summaries-desc",
+	"descriptionmsg": "articlesummaries-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
@@ -39,11 +39,35 @@
 	},
 	"ResourceModules": {
 		"ext.articleSummaries": {
-			"dependencies": [],
 			"packageFiles": [
 				"ext.articleSummaries/init.js"
+			]
+		},
+		"ext.articleSummaries.overlay": {
+			"packageFiles": [
+				"ext.articleSummaries/overlay/init.js",
+				"ext.articleSummaries/overlay/SummaryOverlay.vue",
+				{
+					"name": "ext.articleSummaries/overlay/icons.json",
+					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
+					"callbackParam": [
+						"cdxIconCheck",
+						"cdxIconClose"
+					]
+				}
 			],
-			"messages": []
+			"dependencies": [
+				"@wikimedia/codex"
+			],
+			"messages": [
+				"articlesummaries-summary-overlay-notice",
+				"articlesummaries-summary-overlay-warning",
+				"articlesummaries-summary-overlay-footer-header",
+				"articlesummaries-summary-overlay-footer-text-content",
+				"articlesummaries-summary-overlay-footer-feedback-question",
+				"articlesummaries-summary-overlay-footer-feedback-options-yes",
+				"articlesummaries-summary-overlay-footer-feedback-options-no"
+			]
 		},
 		"ext.articleSummaries.styles": {
 			"class": "MediaWiki\\ResourceLoader\\CodexModule",
@@ -53,7 +77,8 @@
 				"CdxIcon"
 			],
 			"styles": [
-				"ext.articleSummaries.styles/styles.less"
+				"ext.articleSummaries.styles/styles.less",
+				"ext.articleSummaries.styles/overlay.styles.less"
 			]
 		},
 		"ext.articleSummaries.icons": {
