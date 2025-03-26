@@ -1,0 +1,68 @@
+@import 'mediawiki.skin.variables.less';
+
+.ext-article-summary-cta.cdx-dialog {
+	background-color: @background-color-base;
+	font-family: 'Inter', @font-family-base;
+
+	& .cdx-dialog__body.cdx-dialog__body--no-footer {
+		padding-top: 0;
+	}
+
+	& header {
+		font-size: @font-size-medium;
+	}
+
+	& .ext-article-summary-cta-logo-container {
+		height: 128px;
+
+		& .ext-article-summary-cta-logo {
+			width: 100%;
+			height: 100%;
+			background-image: url( images/puzzle.png );
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+	}
+
+	& .ext-article-summary-cta-subtitle {
+		font-size: @font-size-medium;
+		margin: @spacing-75 0;
+	}
+
+	& .ext-article-summary-cta-text {
+		margin-top: 0;
+	}
+
+	& .ext-article-summary-cta-link {
+		color: @color-progressive;
+		font-size: @font-size-small;
+		line-height: @line-height-medium;
+		text-decoration: none;
+		display: flex;
+		align-items: center;
+		gap: @spacing-25;
+	}
+
+	.cdx-icon-link-external {
+		.cdx-mixin-css-icon( @cdx-icon-link-external, @color-progressive,  @size-icon-x-small );
+	}
+
+	& .ext-article-summary-cta-buttons {
+		margin-top: @spacing-100;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		align-self: stretch;
+
+		& .cdx-button {
+			padding: 5px 12px;
+		}
+
+		& .ext-article-summary-cta-button-enable {
+			background-color: @color-progressive;
+			color: @color-inverted-fixed;
+		}
+	}
+}

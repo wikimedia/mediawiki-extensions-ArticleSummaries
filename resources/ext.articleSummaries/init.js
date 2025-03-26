@@ -1,7 +1,7 @@
 // Create and mount the Vue application
 let activeApp;
 mw.hook( 'wikipage.content' ).add( () => {
-	const openDialog = () => {
+	const createSummaryOverlay = () => {
 		const { createApp } = require( 'vue' );
 		const { SummaryOverlay } = require( 'ext.articleSummaries.overlay' );
 		if ( activeApp ) {
@@ -12,14 +12,28 @@ mw.hook( 'wikipage.content' ).add( () => {
 		activeApp = app;
 	};
 
-	const loadDialog = () => {
+	const loadSummaryOverlay = () => {
 		mw.loader.using( 'ext.articleSummaries.overlay' ).then( () => {
-			openDialog();
+			createSummaryOverlay();
 		} );
 	};
 
 	const button = document.getElementById( 'dialog-button' );
 	if ( button ) {
-		button.addEventListener( 'click', loadDialog );
+		button.addEventListener( 'click', loadSummaryOverlay );
 	}
+
+	// define the cta modal hook
+	mw.hook( 'ext.articleSummaries.cta.open' ).add( () => {
+		mw.loader.using( 'ext.articleSummaries.cta' ).then( () => {
+			const { createApp } = require( 'vue' );
+			const { CtaModal } = require( 'ext.articleSummaries.cta' );
+			if ( activeApp ) {
+				activeApp.unmount();
+			}
+			const app = createApp( CtaModal );
+			app.mount( '#article-summaries-cta' );
+			activeApp = app;
+		} );
+	} );
 } );

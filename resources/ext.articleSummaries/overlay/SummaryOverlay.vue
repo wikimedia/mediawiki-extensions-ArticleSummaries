@@ -46,7 +46,7 @@ const { CdxDialog, CdxButton, CdxIcon, CdxInfoChip } = require( '@wikimedia/code
 const { cdxIconCheck, cdxIconClose } = require( './icons.json' );
 
 module.exports = defineComponent( {
-	components: { CdxDialog, CdxButton, CdxIcon, CdxInfoChip },
+	components: { CdxDialog, CdxButton, CdxInfoChip, CdxIcon },
 	setup() {
 		const isDialogOpen = ref( true );
 		const footerHeader = mw.message( 'articlesummaries-summary-overlay-footer-header' ).text();

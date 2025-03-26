@@ -23,6 +23,7 @@ class ShowSummaryBanner {
 					<span class="cdx-icon-next"></span>
 				</button>
 				<div id="article-summaries-overlay"></div>
+				<div id="article-summaries-cta"></div>
 			</div>';
 	}
 }

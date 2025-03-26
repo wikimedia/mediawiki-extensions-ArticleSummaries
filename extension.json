@@ -35,7 +35,7 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
-		"remoteExtPath": "ArticleSummaries"
+		"remoteExtPath": "ArticleSummaries/resources"
 	},
 	"ResourceModules": {
 		"ext.articleSummaries": {
@@ -78,19 +78,25 @@
 			],
 			"styles": [
 				"ext.articleSummaries.styles/styles.less",
-				"ext.articleSummaries.styles/overlay.styles.less"
+				"ext.articleSummaries.styles/overlay.styles.less",
+				"ext.articleSummaries.styles/cta.styles.less"
 			]
 		},
-		"ext.articleSummaries.icons": {
-			"class": "MediaWiki\\ResourceLoader\\CodexModule",
+		"ext.articleSummaries.cta": {
 			"packageFiles": [
-				{
-					"name": "icons.json",
-					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
-					"callbackParam": [
-						"cdxIconNext"
-					]
-				}
+				"ext.articleSummaries/cta/index.js",
+				"ext.articleSummaries/cta/CtaModal.vue"
+			],
+			"dependencies": [
+				"@wikimedia/codex"
+			],
+			"messages": [
+				"articlesummaries-summary-cta-title",
+				"articlesummaries-summary-cta-subtitle",
+				"articlesummaries-summary-cta-text",
+				"articlesummaries-summary-cta-link",
+				"articlesummaries-summary-cta-button-enable",
+				"articlesummaries-summary-cta-button-decline"
 			]
 		}
 	},
