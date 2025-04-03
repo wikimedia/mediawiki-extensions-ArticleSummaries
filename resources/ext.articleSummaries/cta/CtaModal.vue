@@ -21,7 +21,10 @@
 		</a>
 
 		<div class="ext-article-summary-cta-buttons">
-			<cdx-button class="ext-article-summary-cta-button-decline">
+			<cdx-button
+				class="ext-article-summary-cta-button-decline"
+				@click="isCtaOpen = false"
+			>
 				{{ buttonDecline }}
 			</cdx-button>
 			<cdx-button class="ext-article-summary-cta-button-enable">
