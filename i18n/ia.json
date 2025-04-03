@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"articlesummaries-desc": "Isto es un extension que forni un summario del articulo",
+	"articlesummaries-show-summary-text": "Leger summario",
+	"articlesummaries-show-summary-small": "Generate per machina le $1",
+	"articlesummaries-summary-overlay-footer-header": "Como isto ha essite facite",
+	"articlesummaries-summary-overlay-notice": "Summario generate per machina",
+	"articlesummaries-summary-overlay-warning": "Non verificate",
+	"articlesummaries-summary-overlay-footer-text-content": "Iste summario ha essite generate per machina per le Fundation Wikimedia con un grande modello de lingua que se appella Aya, le 25 de septembre 2024. Isto es un function experimental que non seque le processo redactional acceptate de Wikipedia. Iste summario non ha essite verificate pro accuratessa o neutralitate.",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Es iste summario utile?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Si",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "No",
+	"articlesummaries-summary-cta-title": "Summarios simple",
+	"articlesummaries-summary-cta-subtitle": "Essaya un experimento de lectura",
+	"articlesummaries-summary-cta-text": "Lege summarios simple generate per machina al initio de certe articulos. Tu pote disactivar isto a omne momento.",
+	"articlesummaries-summary-cta-link": "Leger plus",
+	"articlesummaries-summary-cta-button-enable": "Activar",
+	"articlesummaries-summary-cta-button-decline": "No, gratias"
+}
