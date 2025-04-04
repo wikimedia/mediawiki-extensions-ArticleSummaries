@@ -10,6 +10,7 @@ use MediaWikiUnitTestCase;
 use Message;
 use OutputPage;
 use Skin;
+use User;
 
 /**
  * @coversDefaultClass \MediaWiki\Extension\ArticleSummaries\Hooks
@@ -36,6 +37,13 @@ class HooksTest extends MediaWikiUnitTestCase {
 
 		$outputPageMock->method( 'getSkin' )
 			->willReturn( $skinMock );
+
+		$userMock = $this->createMock( User::class );
+		$userMock->method( 'isAnon' )
+			->willReturn( true );
+
+		$outputPageMock->method( 'getUser' )
+			->willReturn( $userMock );
 
 		$titleMock = $this->createMock( Title::class );
 		$outputPageMock->method( 'getTitle' )
@@ -122,6 +130,13 @@ class HooksTest extends MediaWikiUnitTestCase {
 			->willReturn( $config );
 		$out->method( 'getSkin' )
 			->willReturn( $this->createSkinMock( 'minerva' ) );
+
+		$userMock = $this->createMock( User::class );
+		$userMock->method( 'isAnon' )
+			->willReturn( true );
+
+		$out->method( 'getUser' )
+			->willReturn( $userMock );
 
 		$text = 'Content with hatnote';
 		$originalText = $text;

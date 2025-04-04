@@ -23,11 +23,14 @@
 		<div class="ext-article-summary-cta-buttons">
 			<cdx-button
 				class="ext-article-summary-cta-button-decline"
-				@click="isCtaOpen = false"
+				@click="handleDecline"
 			>
 				{{ buttonDecline }}
 			</cdx-button>
-			<cdx-button class="ext-article-summary-cta-button-enable">
+			<cdx-button
+				class="ext-article-summary-cta-button-enable"
+				@click="handleEnable"
+			>
 				{{ buttonEnable }}
 			</cdx-button>
 		</div>
@@ -48,6 +51,16 @@ module.exports = defineComponent( {
 		const buttonEnable = mw.message( 'articlesummaries-summary-cta-button-enable' ).text();
 		const buttonDecline = mw.message( 'articlesummaries-summary-cta-button-decline' ).text();
 
+		const handleDecline = () => {
+			isCtaOpen.value = false;
+			mw.user.clientPrefs.set( 'ext-summaries', '0' );
+		};
+
+		const handleEnable = () => {
+			isCtaOpen.value = false;
+			mw.user.clientPrefs.set( 'ext-summaries', '1' );
+		};
+
 		return {
 			isCtaOpen,
 			title,
@@ -55,7 +68,9 @@ module.exports = defineComponent( {
 			text,
 			link,
 			buttonEnable,
-			buttonDecline
+			buttonDecline,
+			handleDecline,
+			handleEnable
 		};
 	}
 } );

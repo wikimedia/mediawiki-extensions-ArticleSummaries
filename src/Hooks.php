@@ -19,6 +19,11 @@ class Hooks {
 			return;
 		}
 
+		// Only show for anonymous users
+		if ( !$out->getUser()->isAnon() ) {
+			return;
+		}
+
 		// Check if page has hatnotes or amboxes
 		if ( strpos( $text, 'hatnote' ) !== false || strpos( $text, 'ambox' ) !== false ) {
 			$logger = LoggerFactory::getInstance( 'ArticleSummaries' );
@@ -44,5 +49,9 @@ class Hooks {
 
 		// Add the banner to the page content
 		$text = ShowSummaryBanner::getHTML( $bannerHeading, $bannerText ) . $text;
+	}
+
+	public static function onBeforePageDisplay( OutputPage $out ) {
+		$out->addHtmlClasses( 'ext-summaries-clientpref-0' );
 	}
 }
