@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"articlesummaries-desc": "Dit is een uitbreiding die een samenvatting van het artikel levert",
+	"articlesummaries-show-summary-text": "Samenvatting lezen",
+	"articlesummaries-show-summary-small": "Machinaal gegenereerd op $1",
+	"articlesummaries-summary-overlay-footer-header": "Hoe dit gemaakt is",
+	"articlesummaries-summary-overlay-notice": "Machinaal gegenereerde samenvatting",
+	"articlesummaries-summary-overlay-warning": "Niet geverifieerd",
+	"articlesummaries-summary-overlay-footer-text-content": "Deze samenvatting is op 25 september 2024 machinaal gegenereerd door de Wikimedia Foundation met behulp van een groot taalmodel genaamd Aya. Dit is een experimentele functie die niet voldoet aan het geaccepteerde redactionele proces van Wikipedia. Deze samenvatting is niet gecontroleerd op verifieerbare nauwkeurigheid of een neutraal standpunt.",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Was deze samenvatting nuttig?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Ja",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Nee",
+	"articlesummaries-summary-cta-title": "Eenvoudige samenvattingen",
+	"articlesummaries-summary-cta-subtitle": "Probeer een leesexperiment",
+	"articlesummaries-summary-cta-text": "Lees de machinaal gegenereerde, eenvoudige samenvattingen bovenaan sommige artikelen. U kunt deze op elk moment uitschakelen.",
+	"articlesummaries-summary-cta-link": "Meer lezen",
+	"articlesummaries-summary-cta-button-enable": "Inschakelen",
+	"articlesummaries-summary-cta-button-decline": "Nee, bedankt"
+}
