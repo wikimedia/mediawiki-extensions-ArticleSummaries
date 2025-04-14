@@ -26,7 +26,8 @@
 		}
 	},
 	"Hooks": {
-		"OutputPageBeforeHTML": "ArticleSummariesHooks"
+		"OutputPageBeforeHTML": "ArticleSummariesHooks",
+		"BeforePageDisplay": "ArticleSummariesHooks"
 	},
 	"MessagesDirs": {
 		"ArticleSummaries": [
