@@ -1,0 +1,25 @@
+@import 'mediawiki.skin.variables.less';
+
+.ext-article-summary-opt-out.cdx-dialog {
+	background-color: @background-color-base;
+	font-family: 'Inter', @font-family-base;
+
+	& .ext-article-summary-opt-out-text {
+		font-size: @font-size-medium;
+		line-height: @line-height-medium;
+	}
+
+	& .ext-article-summary-opt-out-buttons {
+		margin-top: @spacing-200;
+		display: flex;
+		justify-content: flex-end;
+
+		& .cdx-button {
+			padding: 5px 12px;
+		}
+
+		& .ext-article-summary-opt-out-button-remove {
+			margin-left: @spacing-50;
+		}
+	}
+}

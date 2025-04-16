@@ -34,31 +34,56 @@
 			</cdx-button>
 		</div>
 		<template #footer-text>
-			<h3>{{ footerHeader }}</h3>
-			<p>{{ footerText }}</p>
+			<h3 class="ext-article-summary-overlay-footer-header">
+				{{ footerHeader }}
+			</h3>
+			<!-- eslint-disable-next-line vue/no-v-html -->
+			<p class="ext-article-summary-overlay-footer-text" v-html="footerText"></p>
+			<cdx-button
+				class="ext-article-summary-overlay-opt-out-button"
+				@click="handleOptOut">
+				<cdx-icon :icon="cdxIconClose"></cdx-icon>
+				{{ optOutButton }}
+			</cdx-button>
 		</template>
 	</cdx-dialog>
+	<opt-out-modal v-model:is-opt-out-open="isOptOutOpen"></opt-out-modal>
 </template>
 
 <script>
-const { defineComponent, ref } = require( 'vue' );
+const { defineComponent, ref, provide } = require( 'vue' );
 const { CdxDialog, CdxButton, CdxIcon, CdxInfoChip } = require( '@wikimedia/codex' );
 const { cdxIconCheck, cdxIconClose } = require( './icons.json' );
+const OptOutModal = require( '../optOut/optOutModal.vue' );
 
 module.exports = defineComponent( {
-	components: { CdxDialog, CdxButton, CdxInfoChip, CdxIcon },
+	components: { CdxDialog, CdxButton, CdxInfoChip, CdxIcon, OptOutModal },
 	setup() {
 		const isDialogOpen = ref( true );
+		const isOptOutOpen = ref( false );
 		const footerHeader = mw.message( 'articlesummaries-summary-overlay-footer-header' ).text();
-		const footerText = mw.message( 'articlesummaries-summary-overlay-footer-text-content' ).text();
+		const footerText = mw.message( 'articlesummaries-summary-overlay-footer-text-content' ).parse();
 		const notice = mw.message( 'articlesummaries-summary-overlay-notice' ).text();
 		const warning = mw.message( 'articlesummaries-summary-overlay-warning' ).text();
 		const feedbackQuestion = mw.message( 'articlesummaries-summary-overlay-footer-feedback-question' ).text();
 		const feedbackOptionYes = mw.message( 'articlesummaries-summary-overlay-footer-feedback-options-yes' ).text();
 		const feedbackOptionNo = mw.message( 'articlesummaries-summary-overlay-footer-feedback-options-no' ).text();
+		const optOutButton = mw.message( 'articlesummaries-summary-overlay-footer-opt-out-button' ).text();
+
+		const showOverlay = () => {
+			isDialogOpen.value = true;
+		};
+
+		provide( 'showSummaryOverlay', showOverlay );
+
+		const handleOptOut = () => {
+			isDialogOpen.value = false;
+			isOptOutOpen.value = true;
+		};
 
 		return {
 			isDialogOpen,
+			isOptOutOpen,
 			footerHeader,
 			footerText,
 			notice,
@@ -66,8 +91,10 @@ module.exports = defineComponent( {
 			feedbackQuestion,
 			feedbackOptionYes,
 			feedbackOptionNo,
+			optOutButton,
 			cdxIconCheck,
-			cdxIconClose
+			cdxIconClose,
+			handleOptOut
 		};
 	}
 } );

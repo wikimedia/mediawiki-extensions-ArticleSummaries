@@ -48,6 +48,8 @@
 			"packageFiles": [
 				"ext.articleSummaries/overlay/init.js",
 				"ext.articleSummaries/overlay/SummaryOverlay.vue",
+				"ext.articleSummaries/optOut/index.js",
+				"ext.articleSummaries/optOut/optOutModal.vue",
 				{
 					"name": "ext.articleSummaries/overlay/icons.json",
 					"callback": "MediaWiki\\ResourceLoader\\CodexModule::getIcons",
@@ -65,9 +67,14 @@
 				"articlesummaries-summary-overlay-warning",
 				"articlesummaries-summary-overlay-footer-header",
 				"articlesummaries-summary-overlay-footer-text-content",
+				"articlesummaries-summary-overlay-footer-opt-out-button",
 				"articlesummaries-summary-overlay-footer-feedback-question",
 				"articlesummaries-summary-overlay-footer-feedback-options-yes",
-				"articlesummaries-summary-overlay-footer-feedback-options-no"
+				"articlesummaries-summary-overlay-footer-feedback-options-no",
+				"articlesummaries-opt-out-title",
+				"articlesummaries-opt-out-text",
+				"articlesummaries-opt-out-button-back",
+				"articlesummaries-opt-out-button-remove"
 			]
 		},
 		"ext.articleSummaries.styles": {
@@ -80,7 +87,8 @@
 			"styles": [
 				"ext.articleSummaries.styles/styles.less",
 				"ext.articleSummaries.styles/overlay.styles.less",
-				"ext.articleSummaries.styles/cta.styles.less"
+				"ext.articleSummaries.styles/cta.styles.less",
+				"ext.articleSummaries.styles/optOut.styles.less"
 			]
 		},
 		"ext.articleSummaries.cta": {

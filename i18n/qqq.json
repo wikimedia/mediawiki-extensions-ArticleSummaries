@@ -14,10 +14,15 @@
 	"articlesummaries-summary-overlay-footer-feedback-question": "Question asking users if the summary was helpful",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Label for the positive feedback button",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Label for the negative feedback button",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Label for the button that allows users to opt out of seeing article summaries",
 	"articlesummaries-summary-cta-title": "Title of the call-to-action dialog introducing Simple Summaries feature",
 	"articlesummaries-summary-cta-subtitle": "Subtitle text in the call-to-action dialog inviting users to try the feature",
 	"articlesummaries-summary-cta-text": "Main explanatory text in the call-to-action dialog describing what Simple Summaries does",
 	"articlesummaries-summary-cta-link": "Label for the link that provides more information about Simple Summaries",
 	"articlesummaries-summary-cta-button-enable": "Label for the button that enables the Simple Summaries feature",
-	"articlesummaries-summary-cta-button-decline": "Label for the button that declines enabling the Simple Summaries feature"
+	"articlesummaries-summary-cta-button-decline": "Label for the button that declines enabling the Simple Summaries feature",
+	"articlesummaries-opt-out-title": "Title of the confirmation dialog when opting out of article summaries",
+	"articlesummaries-opt-out-text": "Explanatory text in the opt-out confirmation dialog",
+	"articlesummaries-opt-out-button-back": "Label for the button that returns to the previous screen without opting out",
+	"articlesummaries-opt-out-button-remove": "Label for the button that confirms opting out of article summaries"
 }

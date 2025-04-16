@@ -24,6 +24,7 @@ class ShowSummaryBanner {
 				</button>
 				<div id="article-summaries-overlay"></div>
 				<div id="article-summaries-cta"></div>
+				<div id="article-summaries-opt-out"></div>
 			</div>';
 	}
 }
