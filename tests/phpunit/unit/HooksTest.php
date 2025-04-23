@@ -107,7 +107,8 @@ class HooksTest extends MediaWikiUnitTestCase {
 			->with( 'ext.articleSummaries.styles' );
 
 		$text = 'Original content';
-		Hooks::onOutputPageBeforeHTML( $outputPageMock, $text );
+		$hooks = new Hooks();
+		$hooks->onOutputPageBeforeHTML( $outputPageMock, $text );
 
 		// Test that original content is preserved and banner is added
 		$this->assertStringContainsString( 'Original content', $text );
@@ -130,7 +131,8 @@ class HooksTest extends MediaWikiUnitTestCase {
 		$text = 'Original content';
 		$originalText = $text;
 
-		Hooks::onOutputPageBeforeHTML( $out, $text );
+		$hooks = new Hooks();
+		$hooks->onOutputPageBeforeHTML( $out, $text );
 
 		$this->assertSame( $originalText, $text );
 	}
@@ -160,7 +162,8 @@ class HooksTest extends MediaWikiUnitTestCase {
 		$text = 'Content with hatnote';
 		$originalText = $text;
 
-		Hooks::onOutputPageBeforeHTML( $out, $text );
+		$hooks = new Hooks();
+		$hooks->onOutputPageBeforeHTML( $out, $text );
 
 		$this->assertSame( $originalText, $text );
 	}

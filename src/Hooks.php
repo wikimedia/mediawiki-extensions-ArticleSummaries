@@ -1,9 +1,12 @@
 <?php
 namespace MediaWiki\Extension\ArticleSummaries;
 
+use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\OutputPageBeforeHTMLHook;
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Skin\Skin;
 
-class Hooks {
+class Hooks implements OutputPageBeforeHTMLHook, BeforePageDisplayHook {
 	/**
 	 * For testing purposes
 	 * @var SimpleSummaryChecker|null
@@ -14,7 +17,7 @@ class Hooks {
 	 * @param OutputPage $out
 	 * @param string &$text
 	 */
-	public static function onOutputPageBeforeHTML( OutputPage $out, &$text ) {
+	public function onOutputPageBeforeHTML( $out, &$text ) {
 		if ( !$out->getConfig()->get( 'ArticleSummariesEnabled' ) ) {
 			return;
 		}
@@ -56,8 +59,9 @@ class Hooks {
 
 	/**
 	 * @param OutputPage $out
+	 * @param Skin $skin
 	 */
-	public static function onBeforePageDisplay( OutputPage $out ) {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$summaryChecker = self::$summaryChecker ?? new SimpleSummaryChecker();
 		$title = $out->getTitle();
 
@@ -67,7 +71,5 @@ class Hooks {
 				'wgArticleSummaryResourceUrl' => $summaryResourceUrl,
 			] );
 		}
-
-		$out->addHtmlClasses( 'ext-summaries-clientpref-0' );
 	}
 }
