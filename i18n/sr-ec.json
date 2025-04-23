@@ -7,5 +7,8 @@
 	"articlesummaries-summary-overlay-notice": "Машински генерисан опис",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Да",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Не",
-	"articlesummaries-summary-cta-button-decline": "Не, хвала"
+	"articlesummaries-summary-cta-button-decline": "Не, хвала",
+	"articlesummaries-opt-out-title": "Јесте ли сигурни?",
+	"articlesummaries-opt-out-button-back": "Назад",
+	"articlesummaries-opt-out-button-remove": "Уклони"
 }

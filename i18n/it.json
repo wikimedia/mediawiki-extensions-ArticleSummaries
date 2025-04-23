@@ -8,5 +8,8 @@
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Sì",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "No",
 	"articlesummaries-summary-cta-link": "Ulteriori informazioni",
-	"articlesummaries-summary-cta-button-decline": "No, grazie"
+	"articlesummaries-summary-cta-button-decline": "No, grazie",
+	"articlesummaries-opt-out-title": "Sei sicuro?",
+	"articlesummaries-opt-out-button-back": "Indietro",
+	"articlesummaries-opt-out-button-remove": "Rimuovi"
 }

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cabal"
+		]
+	},
+	"articlesummaries-show-summary-text": "ਸੰਖੇਪ ਪੜ੍ਹੋ",
+	"articlesummaries-summary-overlay-footer-feedback-question": "ਕੀ ਇਹ ਸਾਰ ਮਦਦਗਾਰ ਸੀ?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "ਹਾਂ",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "ਨਹੀਂ",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "ਮੈਨੂੰ ਮੁੜਕੇ ਸਾਰ ਨਾ ਵਿਖਾਓ",
+	"articlesummaries-summary-cta-link": "ਹੋਰ ਜਾਣੋ",
+	"articlesummaries-opt-out-title": "ਕੀ ਤੁਹਾਨੂੰ ਯਕੀਨ ਹੈ?",
+	"articlesummaries-opt-out-button-back": "ਪਿਛਾਂਹ",
+	"articlesummaries-opt-out-button-remove": "ਹਟਾਓ"
+}

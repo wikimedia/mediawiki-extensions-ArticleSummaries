@@ -13,9 +13,13 @@
 	"articlesummaries-summary-overlay-footer-feedback-question": "Oliko tästä tiivistelmästä hyötyä?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Kyllä",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Ei",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Älä näytä enää tiivistelmiä",
 	"articlesummaries-summary-cta-title": "Yksinkertaiset tiivitelmät",
 	"articlesummaries-summary-cta-subtitle": "Kokeile kokeellista lukutoimintoa",
 	"articlesummaries-summary-cta-link": "Lisätietoja",
 	"articlesummaries-summary-cta-button-enable": "Ota käyttöön",
-	"articlesummaries-summary-cta-button-decline": "Ei kiitos"
+	"articlesummaries-summary-cta-button-decline": "Ei kiitos",
+	"articlesummaries-opt-out-title": "Oletko varma?",
+	"articlesummaries-opt-out-button-back": "Takaisin",
+	"articlesummaries-opt-out-button-remove": "Poista käytöstä"
 }

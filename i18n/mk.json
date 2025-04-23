@@ -10,14 +10,19 @@
 	"articlesummaries-summary-overlay-footer-header": "Како ова е направено",
 	"articlesummaries-summary-overlay-notice": "Машински создадено резиме",
 	"articlesummaries-summary-overlay-warning": "Непроверено",
-	"articlesummaries-summary-overlay-footer-text-content": "Ова резиме беше машински созададено за Фондацијата Викимедија користејќи голем јазичен модел наречен Aya на 25 септември 2024 г. Ова е експериментална функција која не се придржува до прифатениот уреднички процес на Википедија. Проверливата точност и неутрална гледна точка на ова резиме не е проверена.",
+	"articlesummaries-summary-overlay-footer-text-content": "Ова резиме беше машински созададено за [[foundationsite:|Фондацијата Викимедија]] користејќи [[w:mk:Голем_јазичен_модел|голем јазичен модел]] наречен [https://cohere\n.com/research/aya Aya] на 25 септември 2024 г. Ова е експериментална функција која не се придржува до прифатениот уреднички процес на Википедија. [[w:mk:Википедија:Проверливост|Проверливата точност]] и [[w:mk:Википедија:Неутрална_гледна_точка|неутрална гледна точка]] на ова резиме не е проверена.",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Дали ова резиме ви беше корисно?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Да",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Не",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Не ми покажувај повеќе резимеа",
 	"articlesummaries-summary-cta-title": "Прости резимеа",
 	"articlesummaries-summary-cta-subtitle": "Пробајте експеримент за читање",
 	"articlesummaries-summary-cta-text": "Читајте прости машински создадени резимеа на врвот од некои статии. Ова можете да го исклучите во секое време.",
 	"articlesummaries-summary-cta-link": "Дознајте повеќе",
 	"articlesummaries-summary-cta-button-enable": "Овозможи",
-	"articlesummaries-summary-cta-button-decline": "Не, благодарам"
+	"articlesummaries-summary-cta-button-decline": "Не, благодарам",
+	"articlesummaries-opt-out-title": "Дали сте сигурни?",
+	"articlesummaries-opt-out-text": "Ова ќе ви ги исклучи резимеата на статии. Можете да ги вклучите во секое време во нагодувањата.",
+	"articlesummaries-opt-out-button-back": "Назад",
+	"articlesummaries-opt-out-button-remove": "Отстрани"
 }
