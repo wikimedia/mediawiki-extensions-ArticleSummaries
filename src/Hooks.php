@@ -1,12 +1,17 @@
 <?php
 namespace MediaWiki\Extension\ArticleSummaries;
 
-use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\Output\OutputPage;
 
 class Hooks {
 	/**
-	 * @param \OutputPage $out
+	 * For testing purposes
+	 * @var SimpleSummaryChecker|null
+	 */
+	public static $summaryChecker = null;
+
+	/**
+	 * @param OutputPage $out
 	 * @param string &$text
 	 */
 	public static function onOutputPageBeforeHTML( OutputPage $out, &$text ) {
@@ -24,17 +29,11 @@ class Hooks {
 			return;
 		}
 
-		// Check if page has hatnotes or amboxes
-		if ( strpos( $text, 'hatnote' ) !== false || strpos( $text, 'ambox' ) !== false ) {
-			$logger = LoggerFactory::getInstance( 'ArticleSummaries' );
-			$logger->warning( 'ArticleSummaries not supported on this page.' );
-			return;
-		}
-
+		$summaryChecker = self::$summaryChecker ?? new SimpleSummaryChecker();
 		$title = $out->getTitle();
 
 		// Check if page has simple summaries available
-		if ( !SimpleSummaryChecker::hasSimpleSummaries( $title ) ) {
+		if ( !$summaryChecker->hasSimpleSummary( $title ) ) {
 			return;
 		}
 
@@ -42,7 +41,11 @@ class Hooks {
 		$out->addModules( 'ext.articleSummaries' );
 		$out->addModuleStyles( 'ext.articleSummaries.styles' );
 
-		$date = 'mm/dd/yyyy';
+		$summaryContent = $summaryChecker->getSimpleSummaryContent( $title );
+		// If the summary JSON does not contain a created date, fall back to the
+		// earliest know summary creation date, which is Oct 25 2024, based on the following commit:
+		// https://gitlab.wikimedia.org/repos/web/web-experiments-extension/-/commit/88cbaa165dd84dd62054c109603b5bda2c92a11f
+		$date = $summaryContent['created'] ?? '10/25/2024';
 
 		$bannerHeading = $out->msg( 'articlesummaries-show-summary-text' )->text();
 		$bannerText = $out->msg( 'articlesummaries-show-summary-small' )->params( $date )->text();
@@ -51,7 +54,20 @@ class Hooks {
 		$text = ShowSummaryBanner::getHTML( $bannerHeading, $bannerText ) . $text;
 	}
 
+	/**
+	 * @param OutputPage $out
+	 */
 	public static function onBeforePageDisplay( OutputPage $out ) {
+		$summaryChecker = self::$summaryChecker ?? new SimpleSummaryChecker();
+		$title = $out->getTitle();
+
+		if ( $summaryChecker->hasSimpleSummary( $title ) ) {
+			$summaryResourceUrl = $summaryChecker->getSimpleSummaryResourceUrl( $title );
+			$out->addJsConfigVars( [
+				'wgArticleSummaryResourceUrl' => $summaryResourceUrl,
+			] );
+		}
+
 		$out->addHtmlClasses( 'ext-summaries-clientpref-0' );
 	}
 }
