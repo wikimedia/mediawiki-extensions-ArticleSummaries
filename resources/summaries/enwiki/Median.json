@@ -1,0 +1,4 @@
+{
+	"summary": "The median is the middle number in a set of data. It splits the data into two equal halves. This is useful because it isn't affected by very large or small numbers, giving a better idea of the typical value. For example, median income is a better way to describe average earnings because it isn't skewed by a few people with extremely high incomes. This makes the median very important in understanding data that isn't easily influenced by outliers.",
+	"title": "Median"
+}

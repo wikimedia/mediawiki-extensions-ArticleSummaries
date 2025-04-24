@@ -1,0 +1,4 @@
+{
+	"summary": "The cross product is a way to multiply two vectors in 3D space, resulting in a new vector that is perpendicular to the original two. It's like finding the third side of a triangle when you know the other two sides. This product is useful in math, physics, and computer programming. The result's length shows the area of the parallelogram made by the original vectors. It's important to note that the cross product depends on the direction (or \"handedness\") of the space.",
+	"title": "Cross product"
+}

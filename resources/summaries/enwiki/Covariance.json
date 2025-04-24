@@ -1,0 +1,4 @@
+{
+	"summary": "Covariance describes how two random variables change together. A positive covariance means that when one variable increases, the other usually increases too. They move in the same direction. In contrast, a negative covariance indicates that when one variable goes up, the other tends to decrease. This shows an opposite relationship. The magnitude of covariance represents the average relationship between the variables. It's calculated using the geometric mean of their variances.",
+	"title": "Covariance"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "The natural logarithm, written as ln(x), is a special way to measure how many times a number called \"e\" (which is about 2.718) needs to be multiplied by itself to get the original number, x. For example, ln(7.5) is 2.0149... because e raised to that power equals 7.5.\n\nIt's useful because it simplifies many math problems, especially those involving growth or decay. It's also connected to the exponential function, where they undo each other. Logarithms can be used with different bases, but natural logarithms are the simplest.",
+	"title": "Natural logarithm"
+}

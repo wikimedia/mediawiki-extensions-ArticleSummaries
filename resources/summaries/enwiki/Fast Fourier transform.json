@@ -1,0 +1,4 @@
+{
+	"summary": "##  Fast Fourier Transform (FFT)\n\nThe Fast Fourier Transform (FFT) is a clever way to break down a signal (like a sound wave) into its different frequencies quickly. It's much faster than the regular method, especially for long signals.\n\nThink of it like taking a complicated puzzle and breaking it into smaller, easier-to-solve pieces.  FFT helps us understand the different parts that make up a signal, which is useful in many fields like engineering, music, and science.",
+	"title": "Fast Fourier transform"
+}

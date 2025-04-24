@@ -1,0 +1,4 @@
+{
+	"summary": "In linear algebra, an **eigenvector** is a special vector that, when transformed by a linear operation, changes only in length, not direction. The **eigenvalue** is the number that tells you how much the eigenvector is stretched or shrunk.\n\nThese concepts are like finding arrows that, when transformed, still point in the same direction but might be longer or shorter. Eigenvectors and eigenvalues help us understand many things, like how systems change over time or how light behaves in different materials.",
+	"title": "Eigenvalues and eigenvectors"
+}

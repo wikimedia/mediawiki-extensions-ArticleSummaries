@@ -1,0 +1,4 @@
+{
+	"summary": "The central limit theorem (CLT) is a big idea in probability. It says that if you take lots of samples from any distribution and calculate their averages, these averages will follow a normal (bell-shaped) curve. This is true even if the original data isn't normal.\n\nSo, no matter what kind of data you have, if you take enough samples and find the average, the CLT says these averages will behave like a normal distribution. This makes it a useful tool in statistics.",
+	"title": "Central limit theorem"
+}

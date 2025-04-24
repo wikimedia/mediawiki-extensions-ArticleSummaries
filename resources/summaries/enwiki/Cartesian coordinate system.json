@@ -1,0 +1,4 @@
+{
+	"summary": "## Summary\n\nA **Cartesian coordinate system** uses pairs of numbers (called coordinates) to mark points on a flat surface (a plane) or in space.\n\nImagine two perpendicular lines, called axes, intersecting at a point called the **origin**. Each point on the plane has unique coordinates telling how far it is from the origin along each axis.\n\nThis system, named after René Descartes, lets us describe shapes like circles using equations. It's crucial in many fields, like math, physics, and computer graphics.",
+	"title": "Cartesian coordinate system"
+}

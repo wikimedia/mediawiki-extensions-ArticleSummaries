@@ -1,0 +1,4 @@
+{
+	"summary": "Tightrope walkers use the moment of inertia of a long rod to stay balanced. Moment of inertia is like how mass works in linear motion but for rotation. It depends on the object's mass and how it's distributed. For a simple object like a point mass, it's calculated as mass times the square of its distance from the rotation axis. Complex objects need more complex calculations, like a 3x3 matrix for 3D rotation. In engineering, \"inertia\" often refers to both mass and moment of inertia.",
+	"title": "Moment of inertia"
+}

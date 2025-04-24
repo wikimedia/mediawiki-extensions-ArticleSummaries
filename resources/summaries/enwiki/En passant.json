@@ -1,0 +1,4 @@
+{
+	"summary": "En passant is a special move in chess where a pawn captures an enemy pawn that has just moved two squares forward. The capturing pawn moves diagonally to the square the enemy pawn passed, as if it only moved one square. This rule stops pawns from avoiding capture by moving two squares. You can only do this capture right after the enemy pawn's two-square move. It's noted with \"e.p.\" in chess notation.",
+	"title": "En passant"
+}

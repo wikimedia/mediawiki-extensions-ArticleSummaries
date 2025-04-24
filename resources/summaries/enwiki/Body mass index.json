@@ -1,0 +1,4 @@
+{
+	"summary": "BMI is a way to measure if a person's weight is healthy for their height. It's calculated by dividing your weight (in kilograms) by your height (in meters) squared. For example, if you weigh 60 kg and are 1.7 m tall, your BMI is 21.6 (60 / (1.7 x 1.7)).\n\nDoctors use BMI to categorize people as underweight, normal weight, overweight, or obese. These categories help understand if someone might have health issues related to their weight. However, BMI doesn't always give the full picture, especially for people with lots of muscle or those with belly fat.",
+	"title": "Body mass index"
+}

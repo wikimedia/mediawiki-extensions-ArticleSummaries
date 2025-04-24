@@ -1,0 +1,4 @@
+{
+	"summary": "Morse code is a way to send messages using dots and dashes, invented by Samuel Morse. It's used for telegraphy and radio communication. The code has 26 letters, 10 numbers, and some punctuation. Each symbol is made of 'dits' (short signals) and 'dahs' (long signals). The length of a dah is three times a dit. Dits and dahs are separated by short pauses.\n\nWords are separated by a longer pause. Morse code can be sent using sound or light, and it's often used in emergency situations. The speed of transmission is measured in groups per minute.",
+	"title": "Morse code"
+}

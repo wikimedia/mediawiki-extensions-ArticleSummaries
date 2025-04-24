@@ -1,0 +1,4 @@
+{
+	"summary": "## Taylor Series: A Function's Best Friend\n\nA Taylor series breaks down a function into an infinite sum of simpler terms, kind of like a mathematical recipe. It uses the function's derivatives (how it changes) at a single point.\n\nThe more terms you include, the closer the Taylor series approximates the original function, like building a puzzle with more pieces.\n\nWhen the Taylor series has a finite number of terms, it's called a Taylor polynomial. These polynomials are good approximations of the function, especially when you use more terms.",
+	"title": "Taylor series"
+}

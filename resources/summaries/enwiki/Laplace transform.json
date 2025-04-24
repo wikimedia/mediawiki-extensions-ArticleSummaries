@@ -1,0 +1,4 @@
+{
+	"summary": "## Laplace Transform: Simplifying Math Problems\n\nThe Laplace transform is a math tool named after Pierre-Simon Laplace. It changes a function from the time domain (real numbers) to the \"s-domain\" (complex numbers). This makes solving differential equations and analyzing systems easier, because multiplication and division become simpler than time-domain calculations like differentiation.\n\nThink of it like converting a difficult math problem into a simpler one with building blocks. Once you solve the problem in the s-domain, you can use the inverse Laplace transform to get the original answer back.",
+	"title": "Laplace transform"
+}

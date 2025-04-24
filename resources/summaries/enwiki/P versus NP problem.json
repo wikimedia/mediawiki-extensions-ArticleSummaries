@@ -1,0 +1,4 @@
+{
+	"summary": "## P vs. NP: A Simplifed Explanation\n\nImagine you have a complex puzzle. The P vs. NP problem asks if it's possible to solve the puzzle quickly (in \"polynomial time\") if you can check if someone else's solution is correct quickly.\n\nWe know how to quickly check solutions (NP), but we don't know if we can find solutions just as fast (P). If P is not equal to NP (which most scientists believe), it means some puzzles are harder to solve than to check. This has huge implications for technology, security, and even math. It's one of the biggest mysteries in computer science.",
+	"title": "P versus NP problem"
+}

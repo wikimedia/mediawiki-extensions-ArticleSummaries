@@ -1,0 +1,4 @@
+{
+	"summary": "## Principal Component Analysis (PCA) Simplified\n\nPCA is a tool that helps us understand complex data. It finds the directions where the data changes the most (called \"principal components\"). Think of it like stretching a rubber band over a bunch of points; the direction it stretches the most is the first principal component.\n\nPCA helps us simplify data by focusing on these important directions. This is useful for making graphs, finding patterns, and analyzing data in different fields like biology and weather science.",
+	"title": "Principal component analysis"
+}

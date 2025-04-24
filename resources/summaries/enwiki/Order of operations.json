@@ -1,0 +1,4 @@
+{
+	"summary": "In math and coding, the order of operations tells us which calculations to do first. It follows a set of rules, like a hierarchy. For instance, multiplication usually comes before addition. So, in the equation 1 + 2 × 3, you multiply 2 by 3 first, then add 1, giving you 7.\n\nParentheses can change this order; they make sure certain calculations are done first. For example, (2 + 3) × 4 equals 20 because the addition inside the parentheses is done first. These rules help avoid confusion when writing short equations.",
+	"title": "Order of operations"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Binomial Distribution Simplified\n\nThe binomial distribution helps us find the chances of getting a certain number of successes in many tries. Imagine flipping a coin 8 times (that's 'n'). Each flip is a \"yes\" (success) or \"no\" (failure) with a 50% chance ('p' is 0.5). The binomial distribution tells us, for example, how likely it is to get exactly 4 heads. It's like Pascal's triangle, where numbers in each row are probabilities of getting different numbers of successes. This distribution is useful in many areas, like science experiments and quality control.",
+	"title": "Binomial distribution"
+}

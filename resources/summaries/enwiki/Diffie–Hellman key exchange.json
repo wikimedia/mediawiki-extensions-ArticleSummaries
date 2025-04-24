@@ -1,0 +1,4 @@
+{
+	"summary": "The Diffie–Hellman key exchange is a way for two people to secretly agree on a key without anyone else knowing it. This method, created by Whitfield Diffie and Martin Hellman in 1976, revolutionized cryptography. It allows two people who've never met to create a shared secret key over an unsafe channel, like the internet. This key can then be used to encrypt messages, keeping them private. However, recent research suggests that the keys used in many internet applications might not be strong enough to prevent very advanced attackers from breaking the security.",
+	"title": "Diffie–Hellman key exchange"
+}

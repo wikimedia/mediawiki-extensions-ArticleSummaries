@@ -1,0 +1,4 @@
+{
+	"summary": "TCP/IP is a set of rules for how computers talk to each other over the internet. It uses three main protocols: TCP, UDP, and IP. The U.S. Department of Defense started this system.\n\nIt works like a postal system, where data is put into packages (packets) with addresses, then sent and received. There are four layers to this system: link, internet, transport, and application. Each layer has specific jobs, like making sure the data gets to the right place or that it's in the right format for the receiving computer.\n\nThe IETF group keeps these rules updated. TCP/IP was created before the OSI model, which is a more detailed way to describe how networks work.",
+	"title": "Internet protocol suite"
+}

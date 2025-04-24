@@ -1,0 +1,4 @@
+{
+	"summary": "In simple terms, the Jacobian matrix is a way to organize the rates at which a multi-variable function changes. It's a square matrix made up of all the function's first-order partial derivatives. If the function has as many inputs as outputs, we can calculate a special value called the Jacobian determinant, which is just the determinant of this matrix. These concepts are named after the mathematician Carl Gustav Jacob Jacobi.",
+	"title": "Jacobian matrix and determinant"
+}

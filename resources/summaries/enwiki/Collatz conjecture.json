@@ -1,0 +1,4 @@
+{
+	"summary": "## The Collatz Conjecture\n\nThe Collatz conjecture is a math problem about turning numbers into 1 using simple rules. If a number is even, divide it by 2. If it's odd, multiply by 3 and add 1. The conjecture says this always leads to 1, no matter what number you start with. It's been tested for numbers up to really big values, but no one has found a proof yet. It's named after Lothar Collatz, who thought of it in 1937.",
+	"title": "Collatz conjecture"
+}

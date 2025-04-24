@@ -1,0 +1,4 @@
+{
+	"summary": "A complex number is a number that can be written as `a + bi`, where 'a' and 'b' are real numbers, and 'i' is the imaginary unit (`i² = -1`). These numbers are shown as vectors on an Argand diagram, with the real axis (Re) and imaginary axis (Im).\n\nComplex numbers solve equations that real numbers can't, like `x² + 1 = 0`, which has solutions `x = i` and `x = -i`. They are useful in science and math because they allow us to work with negative numbers under the square root.",
+	"title": "Complex number"
+}

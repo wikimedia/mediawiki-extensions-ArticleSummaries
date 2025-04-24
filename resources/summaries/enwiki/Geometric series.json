@@ -1,0 +1,4 @@
+{
+	"summary": "A geometric series is a special type of math problem where each number is related to the one before it by a constant amount. Imagine a series of squares, where each new square is 1/4 the size of the last one. The sum of these squares' areas is a geometric series.\n\nThese series have been studied for a long time and are important in many areas of math, like calculus and algebra. They are also useful for describing real-world things like radioactive decay, the universe's expansion, and even game odds.\n\nThe formula for a geometric series is simple: start with a number (the first term), and then multiply it by a constant ratio to get the next term, and so on. The sum of these terms can be calculated using a special formula.",
+	"title": "Geometric series"
+}

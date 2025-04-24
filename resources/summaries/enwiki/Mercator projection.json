@@ -1,0 +1,4 @@
+{
+	"summary": "## Mercator Projection\n\nThe Mercator projection is a type of map created by Gerardus Mercator in 1569. It's popular for navigation because straight lines on the map mean constant direction. However, it distorts the size of places far from the equator, making them look bigger than they are. This is why Greenland looks larger than Africa on this map. It's widely used today, especially for online maps.",
+	"title": "Mercator projection"
+}

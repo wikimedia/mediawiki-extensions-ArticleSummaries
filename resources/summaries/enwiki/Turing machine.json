@@ -1,0 +1,4 @@
+{
+	"summary": "## Turing Machines: A Simple Explanation\n\nA Turing machine is a simple, imaginary computer invented by Alan Turing in 1936. It uses a tape with symbols to perform calculations, following rules in a table.  Think of it as a robot that reads, writes, and moves along the tape based on what it sees and its current \"mood\" (state).\n\nEven though it's basic, a Turing machine can theoretically do anything a real computer can.  It helped Turing prove that some problems can't be solved by any computer.  Most programming languages are similar to Turing machines in their ability to solve problems.",
+	"title": "Turing machine"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Cumulative Distribution Function (CDF)\n\nThe CDF of a random variable tells us the probability that the variable is less than or equal to a certain value. It's a special kind of function that always increases and never decreases. Every probability distribution, whether it's for numbers that are discrete (like rolls of a die) or continuous (like heights), has its own unique CDF. For continuous distributions, the CDF gives us the area under the probability density function up to a certain point.",
+	"title": "Cumulative distribution function"
+}

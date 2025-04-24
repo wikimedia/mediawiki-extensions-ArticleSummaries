@@ -1,0 +1,4 @@
+{
+	"summary": "Monte Carlo methods are like clever math games using random numbers. They help solve tricky problems by simulating lots of possible outcomes. For instance, imagine throwing a bunch of darts at a target; each dart's position is random, but over time, they might form a pattern resembling a normal distribution (a bell curve).\n\nThese methods are useful in many areas, like science, engineering, and finance, to predict things that are hard to calculate exactly. They can approximate complex problems and help us make better decisions when dealing with uncertainty.",
+	"title": "Monte Carlo method"
+}

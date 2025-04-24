@@ -1,0 +1,4 @@
+{
+	"summary": "Binomial coefficients are numbers that appear in the expansion of expressions like (1 + x)^n. They are written as  and can be calculated using the formula  These coefficients form a pattern called Pascal's Triangle when arranged in rows. Each number in the triangle is the sum of the two numbers directly above it. For example, when choosing 2 elements from a set of 4, there are  ways to do so. This concept is useful in many areas of math, especially combinatorics.",
+	"title": "Binomial coefficient"
+}

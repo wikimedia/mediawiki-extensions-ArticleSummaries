@@ -1,0 +1,4 @@
+{
+	"summary": "The Fourier transform is a powerful math tool that helps us understand complex waves and sounds. It breaks down a sound, like a piano chord, into its individual notes (pitches). This is like separating a chord into its unique frequencies. Scientists and engineers use it to analyze music, images, and even physical phenomena like heat transfer.\n\nIn simple terms, it translates information from one domain (like time) into another (frequency), helping us identify the different parts that make up the whole. This transform has many applications, from physics to computer algorithms.",
+	"title": "Fourier transform"
+}

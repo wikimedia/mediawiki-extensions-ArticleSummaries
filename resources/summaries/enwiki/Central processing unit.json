@@ -1,0 +1,4 @@
+{
+	"summary": "A CPU, or processor, is the brain of a computer. It carries out instructions from computer programs, performing tasks like math, logic, and controlling how data is sent and received. CPUs have evolved, but their basic function stays the same. They consist of parts like the ALU (for math and logic), registers (for storing data), and a control unit (for managing instructions). Modern CPUs use techniques like caching and parallel processing to work faster. They are often tiny microprocessors with multiple cores, and they might be part of larger integrated circuits called microcontrollers or SoC (systems on a chip).",
+	"title": "Central processing unit"
+}

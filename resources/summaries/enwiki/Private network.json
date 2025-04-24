@@ -1,0 +1,4 @@
+{
+	"summary": "A private network uses special IP addresses for local networks, like at home or in offices. These 'private' addresses aren't unique worldwide, so they can't be directly accessed from the internet. This helps keep internal networks secure.\n\nTo connect to the internet, a NAT (Network Address Translator) is used to translate these private addresses. This allows multiple devices to share a single public IP address. Private networks were created to conserve public IP addresses and improve security.",
+	"title": "Private network"
+}

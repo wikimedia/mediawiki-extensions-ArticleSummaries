@@ -1,0 +1,4 @@
+{
+	"summary": "The Monty Hall problem is a fun math puzzle based on a game show. You choose a door (let's say Door 1) and the host, Monty, opens another door (Door 3) to show a goat, not a prize. Then, he asks if you want to switch to Door 2.\n\nMost people think staying with Door 1 is best, but actually, switching to Door 2 gives you a better chance (2 out of 3) of winning the prize! This is because Monty knows where the prize is and is helping you by eliminating one wrong choice. It's a tricky problem because it goes against what feels right, but math proves it's true!",
+	"title": "Monty Hall problem"
+}

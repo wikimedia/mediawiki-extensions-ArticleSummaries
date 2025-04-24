@@ -1,0 +1,4 @@
+{
+	"summary": "## Poisson Distribution: A Simple Explanation\n\nThe Poisson distribution helps us predict how likely it is to have a certain number of events happen in a set amount of time or space. Think of it like calls coming into a call center - if they arrive randomly with an average rate, the Poisson distribution can tell us the chances of getting, say, 1, 2, 3, or more calls in a minute.\n\nIt's named after the French mathematician Siméon Denis Poisson and is useful for understanding random events that happen independently of each other.",
+	"title": "Poisson distribution"
+}

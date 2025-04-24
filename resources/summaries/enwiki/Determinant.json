@@ -1,0 +1,4 @@
+{
+	"summary": "## Determined by Numbers: Understanding Determinants\n\nA **determinant** is a special number you can calculate from a **square matrix** (a grid of numbers with the same number of rows and columns). It's often written as `det(A)`, `|A|`, or `det A`.\n\nThe determinant helps us understand the matrix's properties. For example, if a matrix can be reversed (like a mirror image), its determinant is not zero.\n\nWe can calculate determinants in different ways, like using formulas for 2x2 or 3x3 matrices, or more complex methods for bigger matrices. Determinants are useful in solving equations, studying shapes in geometry, and even in calculus.",
+	"title": "Determinant"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "The t-test is a way to check if there's a real difference between two groups' responses. It uses something called a t-distribution when the data isn't normally distributed. This test is useful when we don't know a certain value that affects the data. It's often used to compare the averages of two groups. As the number of data points increases, the t-test results become similar to those of a Z-test.",
+	"title": "Student's t-test"
+}

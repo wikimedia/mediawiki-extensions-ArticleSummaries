@@ -1,0 +1,4 @@
+{
+	"summary": "A Fourier series is a way to break down a repeating function into simpler sine and cosine waves. This makes it easier to study and understand the function. Joseph Fourier first used this method to solve heat-related problems. While Fourier series work well for smooth functions, they might not work for all types of functions. The series is made up of coefficients determined by integrating the function with trigonometric functions. Fourier series are connected to the Fourier transform, which can find frequency patterns in various functions, not just repeating ones.",
+	"title": "Fourier series"
+}

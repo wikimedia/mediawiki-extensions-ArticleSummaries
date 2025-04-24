@@ -1,0 +1,4 @@
+{
+	"summary": "A programming language is like a special code that tells a computer what to do. It has rules for writing instructions, called syntax, and a way to give those instructions meaning, called semantics. There are many types of languages, each designed for different tasks.\n\nSome languages are imperative, following a step-by-step approach. Others are functional, focusing on actions and results. Computer architecture, like the von Neumann design, has influenced how these languages are created. Over time, languages have become more user-friendly, hiding complex details.\n\nExperts study and create these languages, considering factors like error handling and performance. This field is called programming language theory.",
+	"title": "Programming language"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Gamma Function\n\nThe gamma function (Γ) is a math tool that extends the idea of factorials (multiplying numbers together) to include fractions and negative numbers. It's defined using a special integral formula for complex numbers.\n\nAlthough it has poles (points where it's undefined) at zero and negative integers, the gamma function has no zeros, making its reciprocal a useful \"whole\" function. The gamma function is important in many areas of math and statistics.",
+	"title": "Gamma function"
+}

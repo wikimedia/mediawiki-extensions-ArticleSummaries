@@ -1,0 +1,4 @@
+{
+	"summary": "The dot product is a math operation that combines two sequences of numbers (vectors) to get a single number. It's commonly used in geometry with Cartesian coordinates. You calculate it by multiplying matching numbers in the vectors and then adding the results. The name comes from the dot symbol (·) used to represent this operation. It's also called the scalar product because the answer is a single value, not another vector.",
+	"title": "Dot product"
+}

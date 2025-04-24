@@ -1,0 +1,4 @@
+{
+	"summary": "## Simplifying Tensors\n\nTensors are like powerful math tools that describe how things work in physics. Imagine a stress tensor as a map that shows the force acting on tiny parts of an object. It takes a direction (a vector) and tells you the force pulling in that direction.\n\nTensors come in different types, from simple ones like numbers (scalars) and arrows (vectors) to more complex ones that can mix and match different vectors and scalars. They're important in physics because they simplify complex problems, especially in mechanics, electricity, and even Einstein's theory of gravity.",
+	"title": "Tensor"
+}

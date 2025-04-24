@@ -1,0 +1,4 @@
+{
+	"summary": "## Logistic Regression Simplified\n\nLogistic regression is a statistical tool that predicts the chance of something happening (like passing a test) based on factors like how many hours you study. It uses a \"logistic\" curve to show how likely something is to occur.\n\nImagine a graph where the x-axis is study hours and the y-axis is the chance of passing. The logistic curve starts at 0% chance, goes up to 100%, and looks like an \"S\".  The model uses numbers (coefficients) to weigh how much each factor (like study hours) influences the final probability.",
+	"title": "Logistic regression"
+}

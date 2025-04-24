@@ -1,0 +1,4 @@
+{
+	"summary": "The Gini coefficient is a way to measure how unequal income or wealth is within a country. It was created by Corrado Gini and ranges from 0 to 1 (or 0% to 100%). A value of 0 means everyone has the same income, while 1 means one person has all the income.\n\nMany countries have different Gini coefficients. For example, Slovakia has a low coefficient of around 0.24, while South Africa has a high one, about 0.63-0.7 before taxes. Global income inequality is estimated to be between 0.61 and 0.68.\n\nThis measurement helps us understand wealth distribution, but it's important to consider other factors like population changes when interpreting the results.",
+	"title": "Gini coefficient"
+}

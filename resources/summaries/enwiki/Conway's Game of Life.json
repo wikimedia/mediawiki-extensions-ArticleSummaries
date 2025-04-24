@@ -1,0 +1,4 @@
+{
+	"summary": "## The Game of Life: A Simulated World\n\nThe Game of Life is a fun math game invented by John Conway. It uses simple rules to create complex patterns. Think of it like a digital ant farm. You start with some \"cells\" on a grid. These cells follow basic rules to decide if they stay alive, die, or create new cells.  Some patterns, called \"gliders,\" can even move across the grid! The game is \"zero-player\" because once you set up the starting pattern, the game plays itself, showing how the cells evolve over time.",
+	"title": "Conway's Game of Life"
+}

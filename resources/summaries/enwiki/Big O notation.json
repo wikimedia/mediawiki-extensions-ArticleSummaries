@@ -1,0 +1,4 @@
+{
+	"summary": "## Big O Notation: A Simple Explanation\n\nBig O notation is like a way to describe how fast a function grows, especially as it deals with bigger and bigger numbers. Imagine you have a recipe (function) that needs to feed more people (bigger input size). Big O tells you how much time or ingredients it will roughly need.\n\nIt uses the letter \"O\" to show the upper limit of this growth.  Other related symbols like omega (Ω) and theta (Θ) describe different types of growth limits. This notation is widely used in computer science to compare the efficiency of algorithms.",
+	"title": "Big O notation"
+}

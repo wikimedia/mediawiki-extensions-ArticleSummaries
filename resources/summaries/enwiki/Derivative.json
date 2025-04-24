@@ -1,0 +1,4 @@
+{
+	"summary": "A derivative is a way to measure how fast a function changes at a specific point. It's like finding the slope of a curve at that exact spot. This helps us understand the instant rate of change between two variables. We use differentiation to find derivatives, and there are different ways to write it, like Leibniz and prime notations. Higher-order derivatives show how quickly something changes over time, like an object's velocity and acceleration. For more complex functions, we use the Jacobian matrix to represent the derivative as a transformation.",
+	"title": "Derivative"
+}

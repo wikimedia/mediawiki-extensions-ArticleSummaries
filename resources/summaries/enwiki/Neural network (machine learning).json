@@ -1,0 +1,4 @@
+{
+	"summary": "## Artificial Neural Networks Simplified\n\nArtificial neural networks (ANNs) are computer systems designed like the human brain. They're made up of nodes (like brain cells) connected by lines (like nerve pathways). Each node does a simple calculation, taking in numbers, doing some math, and sending out a new number.\n\nThese networks can learn by adjusting the strength of these connections.  They're used for things like predicting the future, controlling machines, and even making decisions like a human.  ANNs with many layers are called \"deep\" and can solve very complex problems.",
+	"title": "Neural network (machine learning)"
+}

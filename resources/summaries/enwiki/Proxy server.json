@@ -1,0 +1,4 @@
+{
+	"summary": "A proxy server is like a middleman between two computers on a network. When Computer A (Alice) wants to talk to Computer B (Bob), it goes through a proxy first. The proxy server acts as a go-between, protecting Alice's privacy because Bob only sees the proxy, not Alice directly. This way, Alice can make requests without revealing her identity. Proxy servers can also make the network more efficient and secure.",
+	"title": "Proxy server"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "PCIe is a modern computer connection standard that improves on older ones like PCI and AGP. It's used for graphics cards, sound cards, and more. PCIe has faster data transfer, fewer pins, and better error detection. It's like a busy highway for data, with 'lanes' for sending and receiving information. You'll find it in many devices, even laptops, and it's managed by a group of companies called PCI-SIG.",
+	"title": "PCI Express"
+}

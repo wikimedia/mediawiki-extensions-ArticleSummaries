@@ -1,0 +1,4 @@
+{
+	"summary": "Rust is a powerful computer programming language designed for efficiency and safety. It helps programmers write fast and reliable code, especially for tasks that require high performance. One of its unique features is the \"borrow checker,\" which stops memory-related errors before the program runs.\n\nRust supports different programming styles, including functional and object-oriented approaches. It was started by Graydon Hoare in 2006 and has since gained popularity, with many big companies using it. Rust's ability to be used in the Linux kernel development is a significant milestone, showing its growing importance in the tech world.",
+	"title": "Rust (programming language)"
+}
