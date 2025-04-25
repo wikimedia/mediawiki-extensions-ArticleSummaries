@@ -40,10 +40,13 @@ class SimpleSummaryChecker {
 			return false;
 		}
 
-		$fullPath = $this->getSimpleSummaryFilePath( $title );
+		$titleText = $title->getText();
+		$sanitizedTitleText = $this->sanitizeTitle( $titleText );
 		$config = RequestContext::getMain()->getConfig();
 		$extensionAssetPath = $this->config->get( MainConfigNames::ExtensionAssetsPath );
-		$resourcePath = strstr( $fullPath, $extensionAssetPath . '/' );
+		$resourcePath = $extensionAssetPath .
+			'/ArticleSummaries/resources/summaries/enwiki/' .
+			$sanitizedTitleText . '.json';
 
 		return OutputPage::transformResourcePath( $config, $resourcePath );
 	}
