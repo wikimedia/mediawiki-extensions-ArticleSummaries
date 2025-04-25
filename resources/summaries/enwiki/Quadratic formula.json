@@ -1,0 +1,4 @@
+{
+	"summary": "## Summary\n\nThe roots of a quadratic equation like *y = ½x² - 3x + 5/2* are where the graph touches the x-axis. They can be found using the quadratic formula:\n\n*x = (-b ± √(b²-4ac)) / 2a*\n\nIn this equation, *a, b,* and *c* are the coefficients. The formula gives two possible roots, which might be real numbers or complex numbers (using imaginary numbers). These roots show where the parabola (a U-shaped curve) crosses the x-axis.",
+	"title": "Quadratic formula"
+}

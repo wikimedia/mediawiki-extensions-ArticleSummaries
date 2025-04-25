@@ -1,0 +1,4 @@
+{
+	"summary": "The binomial theorem is a rule in algebra that helps us expand expressions like (x + y)^n. It allows us to break down these expressions into smaller parts, called terms, which have specific patterns. Each term has a coefficient (a number that comes before the variables), and these coefficients are called binomial coefficients. They form a triangle pattern known as Pascal's triangle. These coefficients also tell us how many ways we can choose things from a set, which is useful in combinatorics.",
+	"title": "Binomial theorem"
+}

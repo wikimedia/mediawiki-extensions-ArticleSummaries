@@ -1,0 +1,4 @@
+{
+	"summary": "Information entropy measures how much uncertainty or information a random variable holds. It calculates the average amount of information needed to describe its possible outcomes. The formula uses a sum of probabilities and a logarithm, with different bases giving units like bits or nats.\n\nClaude Shannon introduced this concept in 1948 to study data communication. Entropy represents the limit of lossless data compression. It is similar to entropy in thermodynamics and has applications in various math fields.",
+	"title": "Entropy (information theory)"
+}

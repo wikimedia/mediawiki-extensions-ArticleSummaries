@@ -1,0 +1,4 @@
+{
+	"summary": "## Algorithm Simplified\n\nAn algorithm is a set of instructions to solve a problem or perform a task. Think of it as a recipe: it has clear steps to follow, using specific ingredients (input) to create a dish (output). Algorithms can be simple, like adding two numbers, or complex, like finding the shortest route on a map.\n\nSome algorithms use \"if/then\" statements (conditionals) to make decisions, like a choose-your-own-adventure book. Others might use guesswork (randomized algorithms) when an exact answer is hard to find.",
+	"title": "Algorithm"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "Hexadecimal, or base-16, is a way to write numbers using 16 symbols. It uses digits 0-9 and letters A-F to represent values. Each hex digit stands for four bits in binary. This makes it easy for computer programmers to work with binary code. For example, the hex number 00 to 3F covers all 6-bit binary values from 0 to 63. We write hexadecimal numbers with a subscript 16 or a prefix like '0x' in programming languages.",
+	"title": "Hexadecimal"
+}

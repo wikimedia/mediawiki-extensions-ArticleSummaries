@@ -1,0 +1,4 @@
+{
+	"summary": "## Euler's Formula: A Math Superhero\n\nEuler's formula is a powerful math equation named after Leonhard Euler. It connects trigonometry (sin and cos) with complex numbers (e and i). It looks like this:\n\ne^(ix) = cos(x) + i sin(x)\n\nThis formula works for any real number x, and even complex numbers. It's super important in many fields like math, science, and engineering.  A famous version of it, eiπ + 1 = 0, is called Euler's identity.",
+	"title": "Euler's formula"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "A function is a rule that matches each item in a set (called the domain) to a single item in another set (the codomain). For example, \"planet's position over time\" is a function. This idea started with calculus in the 1600s and was later made more precise using set theory.\n\nFunctions are written as letters (like f, g) and their values are found by plugging in values from the domain. For instance, f(4) means the value of f when the input is 4. The set of all these pairs (x, f(x)) is called the graph, which can be pictured as points in a plane. Functions are crucial in math, science, and engineering.",
+	"title": "Function (mathematics)"
+}

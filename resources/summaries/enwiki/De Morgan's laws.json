@@ -1,0 +1,4 @@
+{
+	"summary": "De Morgan's laws, named after Augustus De Morgan, are rules that help us understand logical statements. They say that \"not (A and B)\" is the same as \"not A or not B\", and \"not (A or B)\" is the same as \"not A and not B\". These rules are useful in computer programming and circuit design, making complex ideas simpler. They are like a special kind of math shortcut!",
+	"title": "De Morgan's laws"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Newton's Method: A Simple Explanation\n\nNewton's method is a way to find the points where a line would intersect a wavy curve (called a function). You start with a guess, then improve it by drawing the curve's tangent line at that point and finding where it crosses the x-axis. You repeat this process, each time getting closer to the exact point where the curve crosses the x-axis (called a root). It's like getting better and better guesses until you find the exact answer.",
+	"title": "Newton's method"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "**Assembly Language Simplified**\n\nAssembly language, often called \"assembly,\" is a low-level computer programming language. It directly corresponds to a computer's machine code instructions. Each assembly statement usually represents a single machine instruction. An assembler program converts assembly code into machine code.\n\nAssembly language is specific to a particular computer architecture. While powerful, it's harder to use than higher-level languages like C or Python. Today, most programming is done in these higher-level languages, with assembly used for specific tasks requiring direct hardware control or for performance-critical sections of code.",
+	"title": "Assembly language"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Logarithms: A Summary\n\nLogarithms are like \"undoing\" exponentiation. They tell us what power we need to raise a number (called the \"base\") to get another number. For example, log₁₀(1000) = 3 because 10³ = 1000.\n\nThere are different types of logarithms, like common logarithms (base 10), natural logarithms (base e, a special number around 2.718), and binary logarithms (base 2).\n\nLogarithms are useful in science, engineering, and computer science for simplifying calculations, measuring things like sound intensity (decibels) or acidity (pH), and even in music and cryptography.",
+	"title": "Logarithm"
+}

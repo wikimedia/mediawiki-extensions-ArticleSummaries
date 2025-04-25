@@ -1,0 +1,4 @@
+{
+	"summary": "## Denial-of-Service (DoS) Attacks Explained Simply\n\nA **denial-of-service attack (DoS)** happens when someone tries to make a website or online service unavailable. They do this by sending way too many requests at once, like asking a store clerk thousands of questions all at once. This overwhelms the website, making it slow down or crash, preventing real users from accessing it.\n\nA **distributed denial-of-service attack (DDoS)** is worse. It uses many computers from different places to send requests, making it harder to stop. Imagine a mob blocking all the entrances to a store.\n\nThese attacks can be used for revenge, blackmail, or to make a political statement.",
+	"title": "Denial-of-service attack"
+}

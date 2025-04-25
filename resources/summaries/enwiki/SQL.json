@@ -1,0 +1,4 @@
+{
+	"summary": "SQL is a special computer language used to manage information, especially in databases. It was created in the 1970s and is very popular because it lets you do many things with data, like organizing, changing, and finding it quickly. SQL is like a set of instructions for databases, helping to access and manage data easily. It has different parts, such as commands to ask for data (DQL), create and change database structures (DDL and DML), and control who can see the data (DCL). SQL is used by many programs and websites to handle their information.",
+	"title": "SQL"
+}

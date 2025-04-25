@@ -1,0 +1,4 @@
+{
+	"summary": "## MOSFETs: The Workhorses of Electronics\n\nMOSFETs are tiny transistors used in almost all electronic devices. They act like switches, controlling the flow of electricity. Unlike regular switches, they use very little power to control much larger amounts.\n\nImagine a water faucet: a small turn of the handle (gate) controls the flow of water (electricity). MOSFETs work similarly, but with tiny voltages controlling big currents. They're made of materials like silicon and come in two main types: \"enhancement\" (turns on with voltage) and \"depletion\" (turns off with voltage). They're essential for making computers, phones, and many other modern gadgets.",
+	"title": "MOSFET"
+}

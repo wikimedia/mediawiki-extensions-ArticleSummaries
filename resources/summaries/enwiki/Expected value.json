@@ -1,0 +1,4 @@
+{
+	"summary": "## Expected Value Explained\n\nExpected value is like a weighted average that considers the possible outcomes of a random event and their probabilities. It tells us what we'd expect to happen on average, even if the actual result might be different.\n\nFor events with a finite number of outcomes, it's calculated by multiplying each outcome by its probability and adding them up. When there are infinitely many possible outcomes, we use a mathematical technique called integration. The symbol E(X) is often used to represent the expected value of a random variable X.",
+	"title": "Expected value"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Regular Expressions: Simplified\n\nRegular expressions (regex) are special codes that help find or match specific patterns in text. Think of them as super-powered search tools.\n\nThey started in the 1950s and became popular with Unix tools.  You can use regex in many places, like search engines, word processors, and programming languages, to find, replace, or check text. There are different ways to write them, like the POSIX standard and Perl syntax.",
+	"title": "Regular expression"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Spherical Coordinates\n\nSpherical coordinates describe a point in 3D space using three numbers:\n\n* **r:** Distance from the center (like a radius).\n* **θ:** Angle from the positive up direction (like the angle of a compass).\n* **φ:** Rotation around the center (like spinning around a pole).\n\nImagine these coordinates as measuring distance, tilt, and rotation on a globe. The \"physics convention\" uses (r, θ, φ) in that order.",
+	"title": "Spherical coordinate system"
+}

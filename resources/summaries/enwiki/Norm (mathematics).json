@@ -1,0 +1,4 @@
+{
+	"summary": "A norm is a special function that measures the \"distance\" from the origin in a vector space. It has three key rules: it scales with the vector, follows a version of the triangle inequality, and is zero only at the origin. The Euclidean distance we know is an example, called the Euclidean norm.\n\nA seminorm is similar but can be zero for some non-origin vectors. A normed vector space has a specified norm, while a seminormed space has a seminorm. Sometimes, \"pseudonorm\" is used to describe a seminorm or a norm with slightly different rules, allowing for inequality or infinite values.",
+	"title": "Norm (mathematics)"
+}

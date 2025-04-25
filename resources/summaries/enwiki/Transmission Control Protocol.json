@@ -1,0 +1,4 @@
+{
+	"summary": "TCP is a key protocol for internet communication, working with IP to ensure reliable data delivery. It's used by many online services, ensuring data is received correctly. Before sending data, TCP establishes a connection, making sure both ends are ready. This process, called a three-way handshake, adds a bit of delay but ensures reliability.\n\nTCP is like a careful postal service, checking each package it sends. It's great for important data but slower than other methods. For faster but less reliable delivery, other protocols like UDP are used. Despite its security measures, TCP can still face attacks like denial of service.",
+	"title": "Transmission Control Protocol"
+}

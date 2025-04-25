@@ -1,0 +1,4 @@
+{
+	"summary": "A blockchain is like a digital record book that many people can access and add to, but no one can change or delete. It's made up of blocks of information, each connected to the one before it, forming a chain. These blocks contain details of transactions, a time stamp, and special security codes. Once a block is added, it can't be altered, making the system very secure.\n\nThis technology was first used for Bitcoin, a digital currency, to stop people spending the same money twice. Now, many businesses are using blockchain for different purposes, although some experts warn that private blockchains might not be as secure as public ones.",
+	"title": "Blockchain"
+}

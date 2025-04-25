@@ -1,0 +1,4 @@
+{
+	"summary": "## Summary\n\nThe chain rule in calculus helps us find the rate of change (derivative) of a function within another function. Imagine a machine with two parts, f and g. The chain rule tells us how fast the final output (f(g(x))) is changing in relation to the input (x) by considering the changes in both parts of the machine. It's like figuring out how a change in the middle of a chain affects the end.",
+	"title": "Chain rule"
+}

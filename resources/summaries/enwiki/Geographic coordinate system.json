@@ -1,0 +1,4 @@
+{
+	"summary": "The geographic coordinate system helps us find locations on Earth using latitude and longitude. Latitude lines run horizontally, parallel to the equator, while longitude lines run vertically, perpendicular to the equator. This system is like a map's grid, but it's on a sphere (the Earth).\n\nLatitude and longitude are angles, not flat (Cartesian) coordinates, as they are measured on a round surface. To be precise, we need to consider the shape of the Earth (an ellipsoid) and use a \"geodetic datum.\" This ensures that different maps agree on the exact positions of places.",
+	"title": "Geographic coordinate system"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "A **quantum computer** uses tiny particles called **qubits** to do calculations. Qubits can be in multiple states at once, which makes them much faster than regular computer bits for certain tasks. However, building stable qubits is hard, and current quantum computers are still experimental. They can't do most tasks better than regular computers yet, but they have the potential to solve very complex problems much faster. Scientists are working to make qubits more reliable so quantum computers can be used practically.",
+	"title": "Quantum computing"
+}

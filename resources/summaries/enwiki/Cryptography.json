@@ -1,0 +1,4 @@
+{
+	"summary": "Cryptography is a way to keep secrets safe when communicating. It turns regular text into a secret code that only certain people can understand. This has been important for governments and military groups for a long time, like with the Lorenz cipher machine in World War II.\n\nModern cryptography uses math and computers to make codes that are really hard to crack. It's used for online shopping, digital money, and keeping passwords safe. Governments often control how cryptography can be used because it can also be used for bad things, like keeping secrets from them.",
+	"title": "Cryptography"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## Hyperbolic Functions: A Simple Explanation\n\nHyperbolic functions are like trigonometric functions (sine, cosine) but based on a hyperbola shape instead of a circle. The main ones are **sinh**, **cosh**, and **tanh**.\n\nThey're used in:\n\n* **Hyperbolic geometry:** Measuring angles and distances in curved spaces.\n* **Physics:** Solving certain types of equations important in electricity, magnetism, heat, fluids, and relativity.\n\nJust like trigonometric functions, hyperbolic functions have inverses and can be used to define other related functions.",
+	"title": "Hyperbolic functions"
+}

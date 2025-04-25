@@ -1,0 +1,4 @@
+{
+	"summary": "RSA (Rivest-Shamir-Adleman) is a way to securely send information. It uses two different keys: a public one to encrypt messages and a private one to decrypt them. This system was created by Rivest, Shamir, and Adleman in 1977, although a similar idea was developed secretly in Britain a few years earlier. RSA's security comes from how hard it is to find the prime numbers used to make the keys. While RSA is secure, it's too slow to encrypt large amounts of data. Instead, it's used to share keys for other encryption methods.",
+	"title": "RSA (cryptosystem)"
+}

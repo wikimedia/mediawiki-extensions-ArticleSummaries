@@ -1,0 +1,4 @@
+{
+	"summary": "The Dirac delta function, often used in math, physics, and engineering, is like an arrow at zero on a number line. It's zero everywhere except at zero, but when you integrate it over the whole line, the result is one. It was named after physicist Paul Dirac. Mathematicians use special techniques, like limits and distribution theory, to handle it because it doesn't fit the usual definition of a function. It's similar to the Kronecker delta function, but works for continuous values.",
+	"title": "Dirac delta function"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "In math, the continuous uniform distribution is a type of probability distribution where any outcome within a range is equally likely. It's like a rectangle with a minimum and maximum value (a and b) as its corners. This distribution is often written as U(a, b). The distance between a and b is the interval length, and all intervals of the same length are equally possible. It's a simple way to describe random experiments with no specific pattern.",
+	"title": "Continuous uniform distribution"
+}

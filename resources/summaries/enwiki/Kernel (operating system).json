@@ -1,0 +1,4 @@
+{
+	"summary": "A kernel is like a boss inside your computer's operating system. It's a special program that connects your software to the computer's hardware, like the CPU and memory. Its main jobs are to manage resources, prevent conflicts between programs, and make sure everything runs smoothly. It's protected from other software to keep the computer stable. There are different types of kernels, like monolithic and microkernels, each designed for speed or resilience. The kernel decides which programs get to use the processor at any given time.",
+	"title": "Kernel (operating system)"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "Prime numbers are natural numbers greater than 1 that can't be made by multiplying two smaller numbers. Composite numbers can be made this way. For example, 5 is prime, but 4 is composite because it's 2 x 2. There are infinitely many prime numbers, but no simple way to find them all. Prime numbers are important in math and used in technology like cryptography. They're also central to the fundamental theorem of arithmetic, which says every number greater than 1 is either prime or made from multiplying primes.",
+	"title": "Prime number"
+}

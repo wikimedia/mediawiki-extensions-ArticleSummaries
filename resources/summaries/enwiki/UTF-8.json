@@ -1,0 +1,4 @@
+{
+	"summary": "UTF-8 is a way to store and send text electronically, used for most websites. It can represent over 1 million characters from different languages and symbols. This encoding uses 1 to 4 bytes for each character, with more common ones using fewer bytes. It's designed to be compatible with older ASCII text, ensuring that simple text files remain the same. UTF-8 is widely supported by various software, making it a popular choice for international text display.",
+	"title": "UTF-8"
+}

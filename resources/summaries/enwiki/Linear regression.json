@@ -1,0 +1,4 @@
+{
+	"summary": "Linear regression is a statistical way to predict a number (like income) based on one or more factors (like age and education). It's like drawing a straight line on a graph to show how these factors affect the number you want to predict. This method is useful because it's simple and easy to understand. You can use it to make predictions in many areas, such as economics or science. There are different ways to calculate this line, and sometimes you need to be careful with unusual data points that might skew the results.",
+	"title": "Linear regression"
+}

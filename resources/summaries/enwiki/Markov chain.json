@@ -1,0 +1,4 @@
+{
+	"summary": "## Summary\n\nA **Markov process** is like a game where what happens next depends only on where you are now. It's named after Andrey Markov, a Russian mathematician.\n\nThese processes can be **discrete** (like steps in time) or **continuous** (like time flowing smoothly). They are used in many fields to model random events, from weather patterns to stock prices. We call things related to these processes **Markovian**.",
+	"title": "Markov chain"
+}

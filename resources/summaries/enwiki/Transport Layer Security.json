@@ -1,0 +1,4 @@
+{
+	"summary": "TLS is a security protocol that protects internet communications. It's like a secret code that keeps your messages safe when you're chatting, emailing, or browsing websites with HTTPS. This protocol ensures that your data stays private and hasn't been tampered with. It works by creating a secure connection between your computer and the website or app you're using. TLS is an updated version of an older protocol called SSL, and it's an important standard for online security.",
+	"title": "Transport Layer Security"
+}

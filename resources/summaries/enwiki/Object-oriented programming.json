@@ -1,0 +1,4 @@
+{
+	"summary": "OOP is a way to write computer programs by using \"objects.\" These objects are like special boxes that hold two things: data (like numbers or text) and instructions (called methods) on what to do with that data.\n\nIn OOP, you can create classes, which are like blueprints for objects. For example, a \"Button\" class might have data like color and size, and methods like \"click\" or \"change color.\" Subclasses can inherit these features, creating new classes with similar traits.\n\nMany popular programming languages use OOP, allowing developers to build complex programs by combining these interactive objects.",
+	"title": "Object-oriented programming"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "Dijkstra's algorithm, created by computer scientist Edsger W. Dijkstra in 1956, helps find the shortest paths between nodes in a weighted graph, like a road map. It starts from a chosen node and explores the nearest neighbors until it reaches every other node. This algorithm is useful for finding the best routes in GPS systems or internet routing. It uses a special data structure to quickly find the shortest paths, and can be optimized for faster performance.",
+	"title": "Dijkstra's algorithm"
+}

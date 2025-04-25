@@ -1,0 +1,4 @@
+{
+	"summary": "An IP address is a unique number, like 192.0.2.1, given to devices connected to a network using the internet. It helps identify devices and find their location. There are two main types: IPv4 (32-bit) and IPv6 (128-bit), with IPv6 being newer and addressing the issue of running out of unique IPv4 addresses. IP addresses are managed globally and assigned to regions, then to internet providers and users. Network administrators set these addresses, which can be fixed or changed each time a device connects. Some places see IP addresses as personal information.",
+	"title": "IP address"
+}

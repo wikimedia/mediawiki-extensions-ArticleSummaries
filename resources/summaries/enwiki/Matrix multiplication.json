@@ -1,0 +1,4 @@
+{
+	"summary": "Matrix multiplication is when you multiply two matrices (grids of numbers) together. For this to work, the number of columns in the first matrix must be the same as the number of rows in the second matrix. The resulting matrix will have the same number of rows as the first matrix and the same number of columns as the second matrix. This math operation is useful in many areas like physics, economics, and engineering. It was first introduced by French mathematician Jacques Binet in 1812.",
+	"title": "Matrix multiplication"
+}

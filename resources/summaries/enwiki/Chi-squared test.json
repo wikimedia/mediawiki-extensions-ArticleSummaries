@@ -1,0 +1,4 @@
+{
+	"summary": "A chi-squared test is a way to compare expected and observed data, especially when looking at tables with categories. It helps us see if there's a connection between two things (like variables or categories) by checking if the differences we see are likely to happen by chance. This test uses a chi-squared distribution, which is like a graph showing how likely certain results are. It's mainly used when we have a lot of data and want to know if the categories are independent of each other.",
+	"title": "Chi-squared test"
+}

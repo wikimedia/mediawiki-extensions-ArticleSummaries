@@ -1,0 +1,4 @@
+{
+	"summary": "##  Measuring Distance with Pythagoras\n\nThe Euclidean distance is the straight-line distance between two points. You can calculate it using the Pythagorean theorem, which relates the length of the sides of a right triangle. This method is named after the ancient Greek mathematicians Euclid and Pythagoras.\n\nWhile Euclid didn't originally use numbers to represent distance, modern math uses the Pythagorean theorem to find distances in a coordinate plane.  The concept of distance has been extended to more complex shapes and spaces beyond simple points.",
+	"title": "Euclidean distance"
+}

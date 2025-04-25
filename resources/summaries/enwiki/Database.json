@@ -1,0 +1,4 @@
+{
+	"summary": "A database is an organized collection of data managed by software called a DBMS. It helps users interact with the data and can be small, stored on a computer, or large, hosted on clusters or in the cloud. Databases can be classified by their structure, like relational databases that use tables and SQL, or non-relational (NoSQL) databases that use other languages. These systems ensure data is secure, can be accessed by multiple users, and can recover from errors.",
+	"title": "Database"
+}

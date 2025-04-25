@@ -1,0 +1,4 @@
+{
+	"summary": "## Summary\n\nA Caesar cipher is a simple code where each letter is replaced by a letter further down the alphabet. For example, if we shift letters 3 positions down, 'D' becomes 'A', and 'E' becomes 'B'. It's named after Julius Caesar, who used it to keep his messages secret. However, this cipher is easy to crack and isn't secure for modern communication. It's often used as part of more complex codes.",
+	"title": "Caesar cipher"
+}

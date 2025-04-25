@@ -1,0 +1,4 @@
+{
+	"summary": "**Gulliver's Travels and Endianness in Computing**\n\nIn computing, \"endianness\" describes the order bytes are stored or sent. It's named after a story by Jonathan Swift, where people argue over which end of an egg to break. There are two main types: big-endian (most important byte first) and little-endian (least important byte first). Computers use these orders to store data like numbers and text. Big-endian is common in networking, while little-endian is used in many computer processors. Some systems can switch between these orders.",
+	"title": "Endianness"
+}

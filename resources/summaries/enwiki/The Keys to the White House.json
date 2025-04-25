@@ -1,0 +1,4 @@
+{
+	"summary": "This is a system that predicts US presidential election results. It was created by historian Allan Lichtman and scientist Vladimir Keilis-Borok in 1981. They use 13 true/false questions to check the health of the US and its politics before an election. If five or fewer questions are false, the current party wins. If six or more are false, the opposing party wins. Lichtman has correctly guessed the election results since 1984, except for the 2016 popular vote. He argues that voters choose leaders based on how well the country is run, not election campaigns.",
+	"title": "The Keys to the White House"
+}

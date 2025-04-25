@@ -1,0 +1,4 @@
+{
+	"summary": "An Application Programming Interface (API) is like a bridge that connects computers or software programs. It's a set of rules and tools that let different systems talk to each other. An API specification is a document that explains how to build this bridge. APIs hide the complex inner workings of a system, only showing useful parts to programmers. They can be custom-made or shared standards, allowing different computers to work together. APIs are commonly used for web communication and in programming languages, software, operating systems, and hardware. They've been around since the 1940s but became widely known in the 1960s and 70s.",
+	"title": "API"
+}

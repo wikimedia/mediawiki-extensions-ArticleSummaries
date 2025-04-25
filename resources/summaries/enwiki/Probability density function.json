@@ -1,0 +1,4 @@
+{
+	"summary": "A probability density function (PDF) describes the likelihood of a continuous random variable taking on different values. Think of it as a curve where the height at any point shows how likely it is for the variable to have that value. The area under the curve is always 1, meaning the total probability is spread across all possible values.\n\nFor example, a box plot and a normal distribution curve (PDF) can show how likely values are within a certain range. The mean, median, and mode are important values that a PDF can help visualize.",
+	"title": "Probability density function"
+}

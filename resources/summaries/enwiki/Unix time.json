@@ -1,0 +1,4 @@
+{
+	"summary": "Unix time is a way to measure time in computing. It starts from January 1, 1970, and counts seconds since then. This system is used in many computers and programs. On September 9, 2001, Unix time reached a big milestone: 1,000,000,000 seconds, and it was celebrated in Copenhagen, Denmark. Modern computers can also measure time in smaller units like microseconds.",
+	"title": "Unix time"
+}

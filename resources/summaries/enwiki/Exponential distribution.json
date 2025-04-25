@@ -1,0 +1,4 @@
+{
+	"summary": "The exponential distribution is a type of probability distribution often used to describe the time between events in a process that happens at a constant rate, like errors in manufacturing or fabric lengths in weaving. It's a special case of the gamma distribution and is similar to the geometric distribution but for continuous data. This distribution has a unique \"memoryless\" property, meaning the time since the last event doesn't affect the wait time for the next one. It's different from the broader category of exponential family distributions, which includes many other types of distributions.",
+	"title": "Exponential distribution"
+}

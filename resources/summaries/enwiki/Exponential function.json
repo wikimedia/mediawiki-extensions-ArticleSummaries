@@ -1,0 +1,4 @@
+{
+	"summary": "## Exponential Functions: A Quick Summary\n\nExponential functions use repeated multiplication, like 2^x or (1/2)^x. The most important one is the natural exponential function, e^x, where \"e\" is a special number called Euler's number.\n\nThese functions grow or shrink very quickly. They're used to describe things like population growth, radioactive decay, and even compound interest.\n\nYou can define them using different methods, like powers, equations, or even complex numbers. The natural logarithm, \"ln\", is the inverse of the natural exponential function.",
+	"title": "Exponential function"
+}

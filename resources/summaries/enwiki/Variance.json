@@ -1,0 +1,4 @@
+{
+	"summary": "## Variance: A Measure of Spread\n\nVariance tells us how spread out numbers are from their average. It's calculated by averaging the squared differences between each number and the mean.\n\nThink of two groups of numbers, both with the same average (mean) but one group is more spread out than the other. The group with the bigger spread will have a larger variance.\n\nVariance is useful for understanding data, but its units are different from the original data, so often we use the square root of variance, called standard deviation, to get a more understandable measure of spread.",
+	"title": "Variance"
+}

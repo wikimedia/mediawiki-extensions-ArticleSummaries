@@ -1,0 +1,4 @@
+{
+	"summary": "The gradient, shown as blue arrows, points to the direction where a function changes the most. It's like finding the steepest hill on a map. The darker the color, the higher the function's value. In math, the gradient is a way to find the fastest-growing direction of a function. It's crucial for optimization, helping us find the minimum or maximum values of a function. This concept is useful in many fields, ensuring solutions are found efficiently.",
+	"title": "Gradient"
+}

@@ -1,0 +1,4 @@
+{
+	"summary": "## L'Hôpital's Rule: Simplifying Limits\n\nL'Hôpital's rule helps us find the limit of a fraction where both the top (numerator) and bottom (denominator) approach zero or infinity at the same rate. It tells us that if the derivatives of the top and bottom exist, we can take their ratio to find the limit.\n\nThis rule is named after Guillaume De l'Hôpital, though it was first discovered by Johann Bernoulli. It's a useful tool for simplifying complex limits.",
+	"title": "L'Hôpital's rule"
+}
