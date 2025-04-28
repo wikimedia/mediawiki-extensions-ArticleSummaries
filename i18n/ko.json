@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"22258",
 			"Ykhwong"
 		]
 	},
@@ -10,5 +11,7 @@
 	"articlesummaries-summary-cta-title": "간단한 요약",
 	"articlesummaries-summary-cta-link": "더 알아보기",
 	"articlesummaries-summary-cta-button-enable": "활성화",
-	"articlesummaries-summary-cta-button-decline": "아니요, 괜찮습니다"
+	"articlesummaries-summary-cta-button-decline": "아니요, 괜찮습니다",
+	"articlesummaries-opt-out-button-back": "뒤로 가기",
+	"articlesummaries-opt-out-button-remove": "삭제"
 }

@@ -14,10 +14,15 @@
 	"articlesummaries-summary-overlay-footer-feedback-question": "Was deze samenvatting nuttig?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Ja",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Nee",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Toon mij geen samenvattingen meer",
 	"articlesummaries-summary-cta-title": "Eenvoudige samenvattingen",
 	"articlesummaries-summary-cta-subtitle": "Probeer een leesexperiment",
 	"articlesummaries-summary-cta-text": "Lees de machinaal gegenereerde, eenvoudige samenvattingen bovenaan sommige artikelen. U kunt deze op elk moment uitschakelen.",
 	"articlesummaries-summary-cta-link": "Meer lezen",
 	"articlesummaries-summary-cta-button-enable": "Inschakelen",
-	"articlesummaries-summary-cta-button-decline": "Nee, bedankt"
+	"articlesummaries-summary-cta-button-decline": "Nee, bedankt",
+	"articlesummaries-opt-out-title": "Weet u het zeker?",
+	"articlesummaries-opt-out-text": "Hiermee worden artikelsamenvattingen voor u uitgeschakeld. In uw voorkeuren kunt u ze altijd weer inschakelen.",
+	"articlesummaries-opt-out-button-back": "Terug",
+	"articlesummaries-opt-out-button-remove": "Verwijderen"
 }

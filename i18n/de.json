@@ -1,6 +1,8 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Brettchenweber"
+		]
 	},
 	"articlesummaries-desc": "Dies ist eine Erweiterung, die eine Zusammenfassung des Artikels bietet",
 	"articlesummaries-show-summary-text": "Zusammenfassung lesen",
@@ -20,7 +22,7 @@
 	"articlesummaries-summary-cta-button-enable": "Aktivieren",
 	"articlesummaries-summary-cta-button-decline": "Nein danke",
 	"articlesummaries-opt-out-title": "Bist du sicher?",
-	"articlesummaries-opt-out-text": "Dadurch werden Artikelzusammenfassungen für dich deaktiviert. Du kannst sie in Ihren Einstellungen jederzeit wieder aktivieren.",
+	"articlesummaries-opt-out-text": "Dadurch werden Artikelzusammenfassungen für dich deaktiviert. Du kannst sie in deinen Einstellungen jederzeit wieder aktivieren.",
 	"articlesummaries-opt-out-button-back": "Zurück",
 	"articlesummaries-opt-out-button-remove": "Entfernen"
 }
