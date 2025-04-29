@@ -14,10 +14,15 @@
 	"articlesummaries-summary-overlay-footer-feedback-question": "האם התקציר הזה היה מועיל?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "כן",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "לא",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "לא להציג לי תקצירים שוב",
 	"articlesummaries-summary-cta-title": "תקצירים פשוטים",
 	"articlesummaries-summary-cta-subtitle": "ניסוי לקוראים",
 	"articlesummaries-summary-cta-text": "יש לך אפשרות לקרוא תקצירים פשוטים שנוצרו באמצעות מכונה בראש ערכים מסוימים. אפשר לכבות את זה בכל זמן.",
 	"articlesummaries-summary-cta-link": "מידע נוסף",
 	"articlesummaries-summary-cta-button-enable": "להפעיל",
-	"articlesummaries-summary-cta-button-decline": "לא, תודה"
+	"articlesummaries-summary-cta-button-decline": "לא, תודה",
+	"articlesummaries-opt-out-title": "באמת?",
+	"articlesummaries-opt-out-text": "זה ישבית עבורך את תקצירי הערכים. באפשרותך תמיד להפעיל אותם שוב בהעדפות שלך.",
+	"articlesummaries-opt-out-button-back": "חזרה",
+	"articlesummaries-opt-out-button-remove": "הסרה"
 }
