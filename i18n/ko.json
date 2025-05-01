@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"22258",
+			"Suleiman the Magnificent Television",
 			"Ykhwong"
 		]
 	},
@@ -12,6 +13,6 @@
 	"articlesummaries-summary-cta-link": "더 알아보기",
 	"articlesummaries-summary-cta-button-enable": "활성화",
 	"articlesummaries-summary-cta-button-decline": "아니요, 괜찮습니다",
-	"articlesummaries-opt-out-button-back": "뒤로 가기",
-	"articlesummaries-opt-out-button-remove": "삭제"
+	"articlesummaries-opt-out-button-back": "뒤로",
+	"articlesummaries-opt-out-button-remove": "제거"
 }
