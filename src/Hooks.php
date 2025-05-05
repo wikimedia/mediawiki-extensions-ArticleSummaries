@@ -71,5 +71,6 @@ class Hooks implements OutputPageBeforeHTMLHook, BeforePageDisplayHook {
 				'wgArticleSummaryResourceUrl' => $summaryResourceUrl,
 			] );
 		}
+		$out->addHtmlClasses( 'ext-summaries-clientpref-0' );
 	}
 }

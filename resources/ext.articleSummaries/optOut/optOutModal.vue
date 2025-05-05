@@ -30,7 +30,7 @@
 </template>
 
 <script>
-const { defineComponent, inject, computed } = require( 'vue' );
+const { defineComponent, computed } = require( 'vue' );
 const { CdxDialog, CdxButton } = require( '@wikimedia/codex' );
 module.exports = defineComponent( {
 	components: { CdxDialog, CdxButton },
@@ -46,7 +46,6 @@ module.exports = defineComponent( {
 		const text = mw.message( 'articlesummaries-opt-out-text' ).text();
 		const buttonBack = mw.message( 'articlesummaries-opt-out-button-back' ).text();
 		const buttonRemove = mw.message( 'articlesummaries-opt-out-button-remove' ).text();
-		const showSummaryOverlay = inject( 'showSummaryOverlay' );
 
 		const dialogOpen = computed( {
 			get: () => props.isOptOutOpen,
@@ -59,7 +58,6 @@ module.exports = defineComponent( {
 
 		const handleBack = () => {
 			emit( 'update:isOptOutOpen', false );
-			showSummaryOverlay();
 		};
 
 		const handleRemove = () => {
