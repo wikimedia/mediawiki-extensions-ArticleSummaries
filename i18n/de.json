@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Wie das gemacht wurde",
 	"articlesummaries-summary-overlay-notice": "Maschinell erstellte Zusammenfassung",
 	"articlesummaries-summary-overlay-warning": "Nicht überprüft",
-	"articlesummaries-summary-overlay-footer-text-content": "Diese Zusammenfassung wurde von der [[foundationsite:|Wikimedia Foundation]] am 25. September 2024 mithilfe des [[:de:Large Language Model|Large Language Models]] Aya maschinell erstellt. Es handelt sich um eine experimentelle Funktion, die nicht dem anerkannten redaktionellen Prozess von Wikipedia folgt. Diese Zusammenfassung wurde weder auf [[:de:Verifizierung und Validierung|nachweisbare Richtigkeit]] noch auf neutrale Sichtweise überprüft.",
+	"articlesummaries-summary-overlay-footer-text-content": "Diese Zusammenfassung wurde von der [[foundationsite:|Wikimedia Foundation]] am $1 mithilfe des [[:de:Large Language Model|Large Language Models]] Aya maschinell erstellt. Es handelt sich um eine experimentelle Funktion, die nicht dem anerkannten redaktionellen Prozess von Wikipedia folgt. Diese Zusammenfassung wurde weder auf [[:de:Verifizierung und Validierung|nachweisbare Richtigkeit]] noch auf neutrale Sichtweise überprüft.",
 	"articlesummaries-summary-overlay-footer-feedback-question": "War diese Zusammenfassung hilfreich?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Ja",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Nein",
