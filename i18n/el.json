@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fotis A."
+		]
+	},
+	"articlesummaries-desc": "Αυτή είναι μια επέκταση που παρέχει μια σύνοψη του λήμματος",
+	"articlesummaries-show-summary-text": "Ανάγνωση περίληψης",
+	"articlesummaries-show-summary-small": "Δημιουργήθηκε από γεννήτρια με $1",
+	"articlesummaries-summary-overlay-footer-header": "Πώς φτιάχτηκε αυτό",
+	"articlesummaries-summary-overlay-notice": "Σύνοψη που δημιουργήθηκε από μηχανή",
+	"articlesummaries-summary-overlay-warning": "Ανεπιβεβαίωτο",
+	"articlesummaries-summary-overlay-footer-text-content": "Αυτή η περίληψη δημιουργήθηκε από μηχανή από το [[foundationsite:|Wikimedia Foundation]] χρησιμοποιώντας ένα [[w:en:Large_language_model|μεγάλο γλωσσικό μοντέλο]] που ονομάζεται [https://cohere.com/research/aya Aya] στο $1 . Πρόκειται για μια πειραματική λειτουργία που δεν ακολουθεί την αποδεκτή εκδοτική διαδικασία της Wikipedia. Αυτή η περίληψη δεν έχει ελεγχθεί για [[w:en:Επαληθεύσιμοτητα|επαληθεύσιμη ακρίβεια]] ή για [[w:en:neutral_point_of_view|ουδέτερη οπτική γωνία]].",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Ήταν χρήσιμη αυτή η περίληψη;",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Ναι",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Όχι",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Να μην εμφανίζονται ξανά συνόψεις",
+	"articlesummaries-summary-cta-title": "Απλές Περιλήψεις",
+	"articlesummaries-summary-cta-subtitle": "Δοκιμάστε ένα πείραμα ανάγνωσης",
+	"articlesummaries-summary-cta-text": "Διαβάστε απλές περιλήψεις που δημιουργούνται από μηχανήματα στην αρχή ορισμένων άρθρων. Μπορείτε να την απενεργοποιήσετε ανά πάσα στιγμή.",
+	"articlesummaries-summary-cta-link": "Μάθετε περισσότερα",
+	"articlesummaries-summary-cta-button-enable": "Ενεργοποιημένο",
+	"articlesummaries-summary-cta-button-decline": "Όχι, ευχαριστώ",
+	"articlesummaries-opt-out-title": "Είστε σίγουρος?",
+	"articlesummaries-opt-out-text": "Αυτό θα απενεργοποιήσει τις περιλήψεις άρθρων για εσάς. Μπορείτε πάντα να τις ενεργοποιήσετε ξανά στις προτιμήσεις σας.",
+	"articlesummaries-opt-out-button-back": "Επιστροφή",
+	"articlesummaries-opt-out-button-remove": "Αφαίρεση"
+}
