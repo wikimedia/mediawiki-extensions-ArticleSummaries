@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Como isto ha essite facite",
 	"articlesummaries-summary-overlay-notice": "Summario generate per machina",
 	"articlesummaries-summary-overlay-warning": "Non verificate",
-	"articlesummaries-summary-overlay-footer-text-content": "Iste summario ha essite generate per machina per le [[foundationsite:|Fundation Wikimedia]] con un [[w:en:Large_language_model|grande modello de lingua]] que se appella [https://cohere.com/research/aya Aya], le 25 de septembre 2024. Isto es un function experimental que non seque le processo redactional acceptate de Wikipedia. Iste summario non ha essite verificate pro [[w:en:Verifiability|accuratessa]] o [[w:en:neutral_point_of_view|neutralitate]].",
+	"articlesummaries-summary-overlay-footer-text-content": "Iste summario ha essite generate per machina per le [[foundationsite:|Fundation Wikimedia]] con un [[w:en:Large_language_model|grande modello de lingua]] que se appella [https://cohere.com/research/aya Aya], le $1. Isto es un function experimental que non seque le processo redactional acceptate de Wikipedia. Iste summario non ha essite verificate pro [[w:en:Verifiability|accuratessa]] o [[w:en:neutral_point_of_view|neutralitate]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Es iste summario utile?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Si",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "No",
