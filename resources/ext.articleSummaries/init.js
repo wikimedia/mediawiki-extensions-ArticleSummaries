@@ -20,7 +20,10 @@ mw.hook( 'wikipage.content' ).add( () => {
 
 	const button = document.getElementById( 'dialog-button' );
 	if ( button ) {
-		button.addEventListener( 'click', loadSummaryOverlay );
+		button.addEventListener( 'click', () => {
+			loadSummaryOverlay();
+			mw.hook( 'ext.articleSummaries.summary.opened' ).fire();
+		} );
 	}
 
 	// define the cta modal hook

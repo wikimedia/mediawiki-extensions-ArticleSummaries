@@ -20,14 +20,22 @@
 			{{ feedbackQuestion }}
 		</div>
 		<div class="ext-article-summary-overlay-feedback-options">
-			<cdx-button class="ext-article-summary-overlay-yes-button">
+			<cdx-toggle-button
+				v-model="yesButton"
+				class="ext-article-summary-overlay-yes-button"
+				@update:model-value="onYesButton"
+			>
 				<cdx-icon :icon="cdxIconCheck"></cdx-icon>
 				{{ feedbackOptionYes }}
-			</cdx-button>
-			<cdx-button class="ext-article-summary-overlay-no-button">
+			</cdx-toggle-button>
+			<cdx-toggle-button
+				v-model="noButton"
+				class="ext-article-summary-overlay-no-button"
+				@update:model-value="onNoButton"
+			>
 				<cdx-icon :icon="cdxIconClose"></cdx-icon>
 				{{ feedbackOptionNo }}
-			</cdx-button>
+			</cdx-toggle-button>
 		</div>
 		<template #footer-text>
 			<h3 class="ext-article-summary-overlay-footer-header">
@@ -47,17 +55,20 @@
 </template>
 
 <script>
-const { defineComponent, ref, provide, onMounted } = require( 'vue' );
-const { CdxDialog, CdxButton, CdxIcon, CdxInfoChip } = require( '@wikimedia/codex' );
+const { defineComponent, ref, onMounted } = require( 'vue' );
+const { CdxDialog, CdxButton, CdxIcon, CdxInfoChip, CdxToggleButton } = require( '@wikimedia/codex' );
 const { cdxIconCheck, cdxIconClose } = require( './icons.json' );
 const OptOutModal = require( '../optOut/optOutModal.vue' );
 
 module.exports = defineComponent( {
-	components: { CdxDialog, CdxButton, CdxInfoChip, CdxIcon, OptOutModal },
+	components: { CdxDialog, CdxButton, CdxInfoChip, CdxIcon, CdxToggleButton, OptOutModal },
 	setup() {
 		const isDialogOpen = ref( true );
 		const isOptOutOpen = ref( false );
 		const generationDateFallback = '10/25/2024';
+		const yesButton = ref( false );
+		const noButton = ref( false );
+
 		const footerHeader = mw.message( 'articlesummaries-summary-overlay-footer-header' ).text();
 		const footerText = mw.message( 'articlesummaries-summary-overlay-footer-text-content', generationDateFallback ).parse();
 		const notice = mw.message( 'articlesummaries-summary-overlay-notice' ).text();
@@ -94,12 +105,6 @@ module.exports = defineComponent( {
 				} );
 		}
 
-		const showOverlay = () => {
-			isDialogOpen.value = true;
-		};
-
-		provide( 'showSummaryOverlay', showOverlay );
-
 		const handleOptOut = () => {
 			isDialogOpen.value = false;
 			isOptOutOpen.value = true;
@@ -107,11 +112,37 @@ module.exports = defineComponent( {
 
 		onMounted( () => {
 			fetchSummary();
+			mw.hook( 'ext.articleSummaries.summary.shown' ).fire();
 		} );
+		// handle functionality of the yes button and tie it to the no button
+		const onYesButton = ( value ) => {
+			yesButton.value = value;
+
+			// reset other button state
+			noButton.value = false;
+
+			// if the button was toggled on, fire the hook to handle logging, etc
+			if ( value ) {
+				mw.hook( 'ext.articleSummaries.summary.yesButton' ).fire();
+			}
+		};
+
+		// same but in the reverse
+		const onNoButton = ( value ) => {
+			noButton.value = value;
+
+			yesButton.value = false;
+
+			if ( value ) {
+				mw.hook( 'ext.articleSummaries.summary.noButton' ).fire();
+			}
+		};
 
 		return {
 			isDialogOpen,
 			isOptOutOpen,
+			yesButton,
+			noButton,
 			footerHeader,
 			footerText,
 			notice,
@@ -124,7 +155,9 @@ module.exports = defineComponent( {
 			cdxIconClose,
 			handleOptOut,
 			summaryText,
-			summaryTitle
+			summaryTitle,
+			onYesButton,
+			onNoButton
 		};
 	}
 } );

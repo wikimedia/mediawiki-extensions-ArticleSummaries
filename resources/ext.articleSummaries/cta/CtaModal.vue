@@ -59,6 +59,8 @@ module.exports = defineComponent( {
 		const handleEnable = () => {
 			isCtaOpen.value = false;
 			mw.user.clientPrefs.set( 'ext-summaries', '1' );
+
+			mw.hook( 'ext.articleSummaries.init' ).fire();
 		};
 
 		return {
