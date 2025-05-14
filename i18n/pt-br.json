@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eduardoaddad"
+		]
+	},
+	"articlesummaries-desc": "Esta é uma extensão que fornece um resumo do artigo",
+	"articlesummaries-show-summary-text": "Ler resumo",
+	"articlesummaries-show-summary-small": "Gerado por máquina em US$ 1",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Sim",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Não",
+	"articlesummaries-summary-cta-link": "Saiba mais",
+	"articlesummaries-summary-cta-button-enable": "Ativar",
+	"articlesummaries-summary-cta-button-decline": "Não, obrigado",
+	"articlesummaries-opt-out-title": "Tem certeza?",
+	"articlesummaries-opt-out-button-back": "Voltar",
+	"articlesummaries-opt-out-button-remove": "Remover"
+}
