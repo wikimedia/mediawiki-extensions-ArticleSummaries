@@ -15,7 +15,10 @@
 		<p class="ext-article-summary-cta-text">
 			{{ text }}
 		</p>
-		<a href="https://www.mediawiki.org/wiki/Extension:ArticleSummaries" class="ext-article-summary-cta-link">
+		<a
+			href="https://www.mediawiki.org/wiki/Extension:ArticleSummaries"
+			class="ext-article-summary-cta-link"
+			@click="handleLearnMore">
 			<span class="ext-article-summary-cta-link-text">{{ link }}</span>
 			<span class="cdx-icon-link-external"></span>
 		</a>
@@ -38,7 +41,7 @@
 </template>
 
 <script>
-const { defineComponent, ref } = require( 'vue' );
+const { defineComponent, ref, onMounted } = require( 'vue' );
 const { CdxDialog, CdxButton } = require( '@wikimedia/codex' );
 module.exports = defineComponent( {
 	components: { CdxDialog, CdxButton },
@@ -54,14 +57,25 @@ module.exports = defineComponent( {
 		const handleDecline = () => {
 			isCtaOpen.value = false;
 			mw.user.clientPrefs.set( 'ext-summaries', '0' );
+
+			mw.hook( 'ext.articleSummaries.cta.noButton' ).fire();
 		};
 
 		const handleEnable = () => {
 			isCtaOpen.value = false;
 			mw.user.clientPrefs.set( 'ext-summaries', '1' );
 
+			mw.hook( 'ext.articleSummaries.cta.yesButton' ).fire();
 			mw.hook( 'ext.articleSummaries.init' ).fire();
 		};
+
+		const handleLearnMore = () => {
+			mw.hook( 'ext.articleSummaries.cta.learnMoreButton' ).fire();
+		};
+
+		onMounted( () => {
+			mw.hook( 'ext.articleSummaries.cta.shown' ).fire();
+		} );
 
 		return {
 			isCtaOpen,
@@ -72,7 +86,8 @@ module.exports = defineComponent( {
 			buttonEnable,
 			buttonDecline,
 			handleDecline,
-			handleEnable
+			handleEnable,
+			handleLearnMore
 		};
 	}
 } );
