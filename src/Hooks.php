@@ -50,11 +50,11 @@ class Hooks implements OutputPageBeforeHTMLHook, BeforePageDisplayHook {
 		// https://gitlab.wikimedia.org/repos/web/web-experiments-extension/-/commit/88cbaa165dd84dd62054c109603b5bda2c92a11f
 		$date = $summaryContent['created'] ?? '10/25/2024';
 
-		$bannerHeading = $out->msg( 'articlesummaries-show-summary-text' )->text();
+		$bannerHeadingText = $out->msg( 'articlesummaries-show-summary-text' )->text();
 		$bannerText = $out->msg( 'articlesummaries-show-summary-small' )->params( $date )->text();
 
 		// Add the banner to the page content
-		$text = ShowSummaryBanner::getHTML( $bannerHeading, $bannerText ) . $text;
+		$text = ShowSummaryBanner::getHTML( $bannerHeadingText, $bannerText ) . $text;
 	}
 
 	/**
