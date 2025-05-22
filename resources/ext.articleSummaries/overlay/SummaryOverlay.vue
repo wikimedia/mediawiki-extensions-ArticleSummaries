@@ -55,7 +55,7 @@
 </template>
 
 <script>
-const { defineComponent, ref, onMounted } = require( 'vue' );
+const { defineComponent, ref, onMounted, provide } = require( 'vue' );
 const { CdxDialog, CdxButton, CdxIcon, CdxInfoChip, CdxToggleButton } = require( '@wikimedia/codex' );
 const { cdxIconCheck, cdxIconClose } = require( './icons.json' );
 const OptOutModal = require( '../optOut/optOutModal.vue' );
@@ -104,6 +104,16 @@ module.exports = defineComponent( {
 					summaryText.value = 'There was an error fetching summary text';
 				} );
 		}
+
+		const showOverlay = () => {
+			isDialogOpen.value = true;
+
+			// log every time the summary is shown - if we want only the clicks of the button we can
+			// insteasd count calls to ext.articleSummaries.summary.opened
+			mw.hook( 'ext.articleSummaries.summary.shown' ).fire();
+		};
+
+		provide( 'showSummaryOverlay', showOverlay );
 
 		const handleOptOut = () => {
 			isDialogOpen.value = false;
