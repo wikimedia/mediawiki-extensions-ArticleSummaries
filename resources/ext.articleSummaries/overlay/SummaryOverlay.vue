@@ -37,7 +37,9 @@
 				{{ feedbackOptionNo }}
 			</cdx-toggle-button>
 		</div>
-		<template #footer-text>
+		<!-- unlike the codex dialogue footer, which is always visible, we want this section to
+			scroll with the overall content -->
+		<div class="ext-article-summary-overlay-footer">
 			<h3 class="ext-article-summary-overlay-footer-header">
 				{{ footerHeader }}
 			</h3>
@@ -49,7 +51,7 @@
 				<cdx-icon :icon="cdxIconClose"></cdx-icon>
 				{{ optOutButton }}
 			</cdx-button>
-		</template>
+		</div>
 	</cdx-dialog>
 	<opt-out-modal v-model:is-opt-out-open="isOptOutOpen"></opt-out-modal>
 </template>
