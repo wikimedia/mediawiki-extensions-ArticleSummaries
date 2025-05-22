@@ -9,3 +9,7 @@
 /.nyc_output/
 /clover.xml
 /lcov.info
+
+# Operating systems
+## Mac OS X
+.DS_Store
