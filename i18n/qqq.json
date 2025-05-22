@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Web Team"
 		]
 	},
@@ -10,7 +11,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Header text for the footer section explaining how the summary was created",
 	"articlesummaries-summary-overlay-notice": "Label indicating that this is a machine-generated summary",
 	"articlesummaries-summary-overlay-warning": "Warning label indicating the summary is unverified",
-	"articlesummaries-summary-overlay-footer-text-content": "Detailed explanation of how the summary was generated and its experimental nature",
+	"articlesummaries-summary-overlay-footer-text-content": "Detailed explanation of how the summary was generated and its experimental nature. $1 is a date.",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Question asking users if the summary was helpful",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Label for the positive feedback button",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Label for the negative feedback button",

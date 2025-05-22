@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "איך זה נעשה",
 	"articlesummaries-summary-overlay-notice": "תקציר שנוצר באמצעות מכונה",
 	"articlesummaries-summary-overlay-warning": "לא בדוק",
-	"articlesummaries-summary-overlay-footer-text-content": "התקציר הזה נוצר באמצעות מכונה על־ידי [[foundationsite:|קרן ויקימדיה]] באמצעות [[w:en:Large_language_model|מודל שפה גדול]] בשם איה (Aya) ב־25 בספטמבר 2024. זוהי אפשרות ניסיונית שאינה פועלת לפי תהליך העריכה המקובל של ויקיפדיה. התקציר לא נבדק מבחינת [[w:en:Verifiability|דיוק בר־בדיקה]] או [[w:en:neutral_point_of_view|נקודת מבט ניטרלית]].",
+	"articlesummaries-summary-overlay-footer-text-content": "התקציר הזה נוצר באמצעות מכונה על־ידי [[foundationsite:|קרן ויקימדיה]] באמצעות [[w:en:Large_language_model|מודל שפה גדול]] בשם [https://cohere.com/research/aya איה] ב־$1. זוהי אפשרות ניסיונית שאינה פועלת לפי תהליך העריכה המקובל של ויקיפדיה. התקציר לא נבדק מבחינת [[w:en:Verifiability|דיוק בר־בדיקה]] או [[w:en:neutral_point_of_view|נקודת מבט ניטרלית]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "האם התקציר הזה היה מועיל?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "כן",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "לא",
