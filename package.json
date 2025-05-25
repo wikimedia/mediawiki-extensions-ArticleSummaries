@@ -10,7 +10,7 @@
 		"stylelint:fix": "stylelint --fix resources/**/*.less"
 	},
 	"devDependencies": {
-		"eslint-config-wikimedia": "0.29.1",
+		"eslint-config-wikimedia": "0.30.0",
 		"stylelint-config-wikimedia": "0.18.0"
 	},
 	"eslintIgnore": [
