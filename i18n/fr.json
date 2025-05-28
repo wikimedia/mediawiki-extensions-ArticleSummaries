@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"JLTRY"
+			"JLTRY",
+			"Derugon",
+			"VIGNERON"
 		]
 	},
 	"articlesummaries-desc": "Il s'agit d'une extension qui fournit un résumé de l'article",
@@ -11,13 +13,17 @@
 	"articlesummaries-summary-overlay-notice": "Résumé généré par machine",
 	"articlesummaries-summary-overlay-warning": "Non vérifié",
 	"articlesummaries-summary-overlay-footer-text-content": "Ce résumé a été généré automatiquement par la Fondation Wikimedia à l'aide d'un modèle linguistique étendu appelé Aya, le 25 septembre 2024. Il s'agit d'une fonctionnalité expérimentale qui ne respecte pas le processus éditorial accepté par Wikipédia. Ce résumé n'a pas été vérifié pour garantir son exactitude vérifiable ni sa neutralité.",
-	"articlesummaries-summary-overlay-footer-feedback-question": "Ce résumé a- t- il été utile ?",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Ce résumé a-t-il été utile ?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Oui",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Non",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Ne plus m'afficher les résumés",
 	"articlesummaries-summary-cta-title": "Résumés simples",
 	"articlesummaries-summary-cta-subtitle": "Essayez une expérience de lecture",
 	"articlesummaries-summary-cta-text": "Consultez des résumés simplifiés générés automatiquement en haut de certains articles. Vous pouvez désactiver cette fonctionnalité à tout moment.",
 	"articlesummaries-summary-cta-link": "En savoir plus",
 	"articlesummaries-summary-cta-button-enable": "Activer",
-	"articlesummaries-summary-cta-button-decline": "Non merci"
+	"articlesummaries-summary-cta-button-decline": "Non merci",
+	"articlesummaries-opt-out-title": "Êtes-vous sûr(e) ?",
+	"articlesummaries-opt-out-button-back": "Retour",
+	"articlesummaries-opt-out-button-remove": "Supprimer"
 }
