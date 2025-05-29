@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gkyziridis"
+		]
+	},
+	"articlesummaries-summary-overlay-footer-text-content": "Denna sammanfattning maskingenererades av [[foundationsite:|Wikimedia Foundation]] med hjälp av en [[w:en:Large_language_model|stor språkmodell]] kallad [https://cohere.com/research/aya Aya] på $1 . Detta är en experimentell funktion som inte följer Wikipedias accepterade redaktionella process. Denna sammanfattning har inte kontrollerats för [[w:en:Wikipedia:Verifierbarhet|verifierbar noggrannhet]] eller en [[w:en:neutral_point_of_view|neutral synvinkel]].",
+	"articlesummaries-opt-out-text": "Att stänga av det enkla sammanfattningseksperimentet kommer att ta bort det från din läsupplevelse."
+}
