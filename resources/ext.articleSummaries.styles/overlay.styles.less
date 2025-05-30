@@ -17,8 +17,17 @@
 		padding-bottom: @spacing-100;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		overflow: hidden;
 		border-bottom: 0;
+
+		h2 {
+			overflow: hidden;
+			text-wrap: wrap;
+			line-clamp: 2;
+			// legacy support
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
+		}
 
 		& .cdx-button {
 			margin: 0;
@@ -37,6 +46,12 @@
 			text-overflow: ellipsis;
 			white-space: nowrap;
 			overflow: hidden;
+			text-wrap: wrap;
+			// retrict to two lines max
+			line-clamp: 2;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			-webkit-line-clamp: 2;
 		}
 	}
 
