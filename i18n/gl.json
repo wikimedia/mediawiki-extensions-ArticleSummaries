@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Como se fixo isto",
 	"articlesummaries-summary-overlay-notice": "Resumo xerado por unha máquina",
 	"articlesummaries-summary-overlay-warning": "Sen verificar",
-	"articlesummaries-summary-overlay-footer-text-content": "Este resumo foi xerado por unha máquina para a [[foundationsite:|Fundación Wikimedia]] usando un [[w:en:Large_language_model|modelo de linguaxe grande]] chamado [https://cohere.com/research/aya Aya] o $1. Esta é unha funcionalidade experimental que non segue o proceso editorial aceptado pola Wikipedia. Este resumo non recibiu comprobacións da súa [[w:en:Wikipedia:Verifiability|precisión]] nin do seu [[w:en:neutral_point_of_view|punto de vista neutral]].",
+	"articlesummaries-summary-overlay-footer-text-content": "Este resumo foi xerado por unha máquina para a [[foundationsite:|Fundación Wikimedia]] usando un [[w:en:Large_language_model|modelo de linguaxe grande]] chamado [https://cohere.com/research/aya Aya] o $1. Esta é unha funcionalidade experimental que non segue o proceso editorial aceptado pola Wikipedia. Este resumo non recibiu comprobacións da súa [[w:en:Wikipedia:Verifiability|precisión]] nin do seu [[w:en:Wikipedia:neutral_point_of_view|punto de vista neutral]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Foi útil este resumo?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Si",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Non",

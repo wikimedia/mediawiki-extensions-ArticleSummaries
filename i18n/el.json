@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Πώς φτιάχτηκε αυτό",
 	"articlesummaries-summary-overlay-notice": "Σύνοψη που δημιουργήθηκε από μηχανή",
 	"articlesummaries-summary-overlay-warning": "Ανεπιβεβαίωτο",
-	"articlesummaries-summary-overlay-footer-text-content": "Αυτή η περίληψη δημιουργήθηκε από μηχανή από το [[foundationsite:|Wikimedia Foundation]] χρησιμοποιώντας ένα [[w:en:Large_language_model|μεγάλο γλωσσικό μοντέλο]] που ονομάζεται [https://cohere.com/research/aya Aya] στο $1 . Πρόκειται για μια πειραματική λειτουργία που δεν ακολουθεί την αποδεκτή εκδοτική διαδικασία της Wikipedia. Αυτή η περίληψη δεν έχει ελεγχθεί για [[w:en:Επαληθεύσιμοτητα|επαληθεύσιμη ακρίβεια]] ή για [[w:en:neutral_point_of_view|ουδέτερη οπτική γωνία]].",
+	"articlesummaries-summary-overlay-footer-text-content": "Αυτή η περίληψη δημιουργήθηκε από μηχανή από το [[foundationsite:|Wikimedia Foundation]] χρησιμοποιώντας ένα [[w:en:Large_language_model|μεγάλο γλωσσικό μοντέλο]] που ονομάζεται [https://cohere.com/research/aya Aya] στο $1 . Πρόκειται για μια πειραματική λειτουργία που δεν ακολουθεί την αποδεκτή εκδοτική διαδικασία της Wikipedia. Αυτή η περίληψη δεν έχει ελεγχθεί για [[w:en:Επαληθεύσιμοτητα|επαληθεύσιμη ακρίβεια]] ή για [[w:en:Wikipedia:neutral_point_of_view|ουδέτερη οπτική γωνία]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Ήταν χρήσιμη αυτή η περίληψη;",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Ναι",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Όχι",
