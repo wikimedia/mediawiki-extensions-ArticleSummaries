@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"articlesummaries-desc": "Esta extensión ofrece un resumo do artigo",
+	"articlesummaries-show-summary-text": "Ler o resumo",
+	"articlesummaries-show-summary-small": "Xerado por unha máquina o $1",
+	"articlesummaries-summary-overlay-footer-header": "Como se fixo isto",
+	"articlesummaries-summary-overlay-notice": "Resumo xerado por unha máquina",
+	"articlesummaries-summary-overlay-warning": "Sen verificar",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Foi útil este resumo?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Si",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Non",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Non me amosedes máis resumos",
+	"articlesummaries-summary-cta-title": "Resumos sinxelos",
+	"articlesummaries-summary-cta-subtitle": "Proba un experimento de lectura",
+	"articlesummaries-summary-cta-text": "Le resumos sinxelos xerados por unha máquina na parte superior dalgúns artigos. Podes desactivalo en calquera momento.",
+	"articlesummaries-summary-cta-link": "Máis información",
+	"articlesummaries-summary-cta-button-enable": "Activar",
+	"articlesummaries-summary-cta-button-decline": "Non, grazas",
+	"articlesummaries-opt-out-title": "Queres continuar?",
+	"articlesummaries-opt-out-button-back": "Volver",
+	"articlesummaries-opt-out-button-remove": "Eliminar"
+}
