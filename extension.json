@@ -11,7 +11,9 @@
 		"MediaWiki": ">= 1.45"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\ArticleSummaries\\": "src/",
+		"MediaWiki\\Extension\\ArticleSummaries\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
 		"MediaWiki\\Extension\\ArticleSummaries\\Tests\\": "tests/phpunit/"
 	},
 	"config": {
