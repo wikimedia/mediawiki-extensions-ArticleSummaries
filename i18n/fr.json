@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Crochet.david",
 			"Derugon",
 			"Gomoko",
 			"JLTRY",
@@ -13,7 +14,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Comment cela a été fait",
 	"articlesummaries-summary-overlay-notice": "Résumé généré par machine",
 	"articlesummaries-summary-overlay-warning": "Non vérifié",
-	"articlesummaries-summary-overlay-footer-text-content": "Ce résumé a été généré automatiquement par la [[foundationsite:|Fondation Wikimédia]] à l'aide d'un [[w:fr:Grand_modèle_de_langage|grand modèle de langage]] appelé [https://cohere.com/research/aya Aya], le $1. Il s'agit d'une fonctionnalité expérimentale qui ne respecte pas le processus éditorial accepté par Wikipédia. Ce résumé n'a pas été vérifié pour garantir son [[w:fr:Wikipédia:Vérifiabilité|exactitude vérifiable]] ni sa [[w:fr:Wikipédia:Neutralité de point de vue|neutralité de point de vue]].",
+	"articlesummaries-summary-overlay-footer-text-content": "Ce résumé a été généré automatiquement par la [[foundationsite:|Fondation Wikimédia]] à l'aide d'un [[w:en:Large_language_model|grand modèle de langage]] appelé [https://cohere.com/research/aya Aya], le $1. Il s'agit d'une fonctionnalité expérimentale qui ne respecte pas le processus éditorial accepté par Wikipédia. Ce résumé n'a pas été vérifié pour garantir son [[w:en:Wikipedia:Verifiability|exactitude vérifiable]] ni sa [[w:en:Wikipedia:neutral_point_of_view|neutralité de point de vue]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Ce résumé a-t-il été utile ?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Oui",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Non",
