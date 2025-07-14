@@ -1,8 +1,29 @@
 {
 	"@metadata": {
 		"authors": [
+			"Meno25",
 			"Mohammed Qays"
 		]
 	},
-	"articlesummaries-summary-overlay-footer-text-content": "أنشأ هذا الملخص آليًا بواسطة [[foundationsite:|مؤسسة ويكيميديا]] باستخدام [[w:en:Large_language_model|نموذج لغوي كبير]] يُدعى [https://cohere.com/research/aya Aya] في $1. هذه ميزة تجريبية لا تتبع عملية التحرير المعتمدة في ويكيبيديا. لم يتحقق من هذا الملخص من حيث [[w:en:Wikipedia:Verifiability|التحقق من الصحة]] أو [[w:en:Wikipedia:neutral_point_of_view|وجهة النظر المحايدة]]."
+	"articlesummaries-desc": "هذا هو الامتداد الذي يوفر ملخصًا للمقالة",
+	"articlesummaries-show-summary-text": "قراءة الملخص",
+	"articlesummaries-show-summary-small": "تم إنشاؤه آليًا على $1",
+	"articlesummaries-summary-overlay-footer-header": "كيف تم صنع هذا",
+	"articlesummaries-summary-overlay-notice": "ملخص تم إنشاؤه آليًا",
+	"articlesummaries-summary-overlay-warning": "غير مُتحقق",
+	"articlesummaries-summary-overlay-footer-text-content": "أنشأ هذا الملخص آليًا بواسطة [[foundationsite:|مؤسسة ويكيميديا]] باستخدام [[w:en:Large_language_model|نموذج لغوي كبير]] يُدعى [https://cohere.com/research/aya Aya] في $1. هذه ميزة تجريبية لا تتبع عملية التحرير المعتمدة في ويكيبيديا. لم يتحقق من هذا الملخص من حيث [[w:en:Wikipedia:Verifiability|التحقق من الصحة]] أو [[w:en:Wikipedia:neutral_point_of_view|وجهة النظر المحايدة]].",
+	"articlesummaries-summary-overlay-footer-feedback-question": "هل كان هذا الملخص مفيدًا؟",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "نعم",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "لا",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "لا تظهر لي الملخصات مرة أخرى",
+	"articlesummaries-summary-cta-title": "ملخصات بسيطة",
+	"articlesummaries-summary-cta-subtitle": "جرب تجربة القراءة",
+	"articlesummaries-summary-cta-text": "اقرأ ملخصات بسيطة مُولّدة آليًا في أعلى بعض المقالات. يمكنك إيقافها في أي وقت.",
+	"articlesummaries-summary-cta-link": "يتعلم أكثر",
+	"articlesummaries-summary-cta-button-enable": "يُمكَِن",
+	"articlesummaries-summary-cta-button-decline": "ًلا شكرا",
+	"articlesummaries-opt-out-title": "هل أنت متأكد؟",
+	"articlesummaries-opt-out-text": "سيؤدي إيقاف تشغيل تجربة الملخص البسيط إلى إزالتها من تجربة القراءة الخاصة بك.",
+	"articlesummaries-opt-out-button-back": "خلف",
+	"articlesummaries-opt-out-button-remove": "يزيل"
 }

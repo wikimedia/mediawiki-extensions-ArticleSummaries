@@ -4,10 +4,12 @@
 			"Умар"
 		]
 	},
+	"articlesummaries-show-summary-text": "Резюме йеша",
 	"articlesummaries-summary-overlay-warning": "ТӀечӀагӀдина доцу",
 	"articlesummaries-summary-overlay-footer-feedback-question": "ХӀара чулацам гӀоьнна хиллий?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "ХӀаъ",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "ХӀан-хӀа",
+	"articlesummaries-summary-cta-title": "Цхьалхе резюме",
 	"articlesummaries-summary-cta-link": "Цул совнаха хаа",
 	"articlesummaries-summary-cta-button-enable": "Латайе",
 	"articlesummaries-summary-cta-button-decline": "ХӀан-хӀа, баркалла",
