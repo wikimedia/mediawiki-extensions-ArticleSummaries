@@ -1,7 +1,27 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mohammed Qays"
+			"Mohammed Qays",
+			"Meno25"
 		]
-	}
+	},
+	"articlesummaries-desc": "هذا هو الامتداد الذي يوفر ملخصًا للمقالة",
+	"articlesummaries-show-summary-text": "قراءة الملخص",
+	"articlesummaries-show-summary-small": "تم إنشاؤه آليًا على $1",
+	"articlesummaries-summary-overlay-footer-header": "كيف تم صنع هذا",
+	"articlesummaries-summary-overlay-notice": "ملخص تم إنشاؤه آليًا",
+	"articlesummaries-summary-overlay-warning": "غير مُتحقق",
+	"articlesummaries-summary-overlay-footer-feedback-question": "هل كان هذا الملخص مفيدًا؟",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "نعم",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "لا",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "لا تظهر لي الملخصات مرة أخرى",
+	"articlesummaries-summary-cta-title": "ملخصات بسيطة",
+	"articlesummaries-summary-cta-subtitle": "جرب تجربة القراءة",
+	"articlesummaries-summary-cta-text": "اقرأ ملخصات بسيطة مُولّدة آليًا في أعلى بعض المقالات. يمكنك إيقافها في أي وقت.",
+	"articlesummaries-summary-cta-link": "يتعلم أكثر",
+	"articlesummaries-summary-cta-button-enable": "يُمكَِن",
+	"articlesummaries-summary-cta-button-decline": "ًلا شكرا",
+	"articlesummaries-opt-out-title": "هل أنت متأكد؟",
+	"articlesummaries-opt-out-button-back": "خلف",
+	"articlesummaries-opt-out-button-remove": "يزيل"
 }
