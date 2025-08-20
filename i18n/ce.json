@@ -4,16 +4,25 @@
 			"Умар"
 		]
 	},
+	"articlesummaries-desc": "Йаззаман чулацам боца луш йолу шордар",
 	"articlesummaries-show-summary-text": "Резюме йеша",
+	"articlesummaries-show-summary-small": "Машинца генераци йина $1",
+	"articlesummaries-summary-overlay-footer-header": "ХӀара муха дина",
+	"articlesummaries-summary-overlay-notice": "Машинца генераци йина резюме",
 	"articlesummaries-summary-overlay-warning": "ТӀечӀагӀдина доцу",
+	"articlesummaries-summary-overlay-footer-text-content": "ХӀара резюме авто генераци йина [[foundationsite:|Викимедиа Фондо]], $1 платформехь [https://cohere.com/research/aya Aya] цӀе йолчу [[w:en:Large_language_model|йоккхачу меттан модельца]]. ХӀара экспериментан агӀо йу, Википедин хийцаран низамца йогӀуш йац. ХӀара резюме теллина йац, [[w:en:Wikipedia:Verifiability|нийса хиларан]] а, [[w:en:Wikipedia:neutral_point_of_view|нейтралан хиларан а агӀор теллина]].",
 	"articlesummaries-summary-overlay-footer-feedback-question": "ХӀара чулацам гӀоьнна хиллий?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "ХӀаъ",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "ХӀан-хӀа",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Кхин ма гайта суна йаца резюмеш",
 	"articlesummaries-summary-cta-title": "Цхьалхе резюме",
+	"articlesummaries-summary-cta-subtitle": "Йешаран эксперимент йан хьажа",
+	"articlesummaries-summary-cta-text": "Цхьаболчу йаззамашна лакхахь авто генераци йина цхьалха аннотацеш йеша. Муьлххачу хенахь а хӀара функци дӀайайа йиш йу хьан.",
 	"articlesummaries-summary-cta-link": "Цул совнаха хаа",
 	"articlesummaries-summary-cta-button-enable": "Латайе",
 	"articlesummaries-summary-cta-button-decline": "ХӀан-хӀа, баркалла",
 	"articlesummaries-opt-out-title": "Бакъалла лаьий хӀуна?",
+	"articlesummaries-opt-out-text": "Цхьалхечу чулацаман эксперимент дӀайаккхаро иза дӀайоккхур йу йешаран процессан тӀера.",
 	"articlesummaries-opt-out-button-back": "Йуха",
 	"articlesummaries-opt-out-button-remove": "ДӀайаккха"
 }
