@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"articlesummaries-desc": "Bu, maddeyi özetlemeye yarayan bir eklentidir.",
+	"articlesummaries-show-summary-text": "Özeti oku",
+	"articlesummaries-show-summary-small": "$1 tarihinde otomatik bir şekilde oluşturuldu",
+	"articlesummaries-summary-overlay-footer-header": "Bu nasıl yapıldı",
+	"articlesummaries-summary-overlay-notice": "Otomatik özet",
+	"articlesummaries-summary-overlay-warning": "Onaylanmamış",
+	"articlesummaries-summary-overlay-footer-text-content": "Bu özet, [[foundationsite:|Wikimedia Vakfı]] tarafından [[w:tr:Büyük_dil_modeli|büyük dil modeli]] [https://cohere.com/research/aya Aya] kullanılarak $1 tarihinde otomatik olarak oluşturulmuştur. Bu, Vikipedi'nin kabul edilmiş editöryal süreçlerini takip etmeyen deneysel bir özelliktir. Bu özetin [[w:tr:Vikipedi:Doğrulanabilirlik|doğrulanabilirliği]] veya [[w:tr:Vikipedi:Tarafsız_bakış_açısı|tarafsız bakış açısı]] kontrol edilmemiştir.",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Bu özet yardımcı oldu mu?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Evet",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Hayır",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Bana özetleri tekrar gösterme",
+	"articlesummaries-summary-cta-title": "Basit Özetler",
+	"articlesummaries-summary-cta-subtitle": "Bir okuma deneyi yapmayı dene",
+	"articlesummaries-summary-cta-text": "Bazı maddelerin üst kısmındaki otomatik oluşturulan basit özetleri okuyun. İstediğiniz zaman bunu kapatabilirsiniz.",
+	"articlesummaries-summary-cta-link": "Daha fazla bilgi",
+	"articlesummaries-summary-cta-button-enable": "Etkinleştir",
+	"articlesummaries-summary-cta-button-decline": "Hayır, teşekkürler",
+	"articlesummaries-opt-out-title": "Emin misiniz?",
+	"articlesummaries-opt-out-text": "Basit özet deneyini kapattığınızda artık okuma deneyiminizde gösterilmeyecektir.",
+	"articlesummaries-opt-out-button-back": "Geri",
+	"articlesummaries-opt-out-button-remove": "Kaldır"
+}
