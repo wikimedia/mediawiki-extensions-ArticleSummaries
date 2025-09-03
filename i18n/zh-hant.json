@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kly"
+		]
+	},
+	"articlesummaries-desc": "這是一個提供條目摘要的擴充功能",
+	"articlesummaries-show-summary-text": "閱讀摘要",
+	"articlesummaries-show-summary-small": "由機器產生於$1",
+	"articlesummaries-summary-overlay-footer-header": "這是如何做出的",
+	"articlesummaries-summary-overlay-notice": "機器產生的摘要",
+	"articlesummaries-summary-overlay-warning": "未經驗證",
+	"articlesummaries-summary-overlay-footer-feedback-question": "此摘要有幫助嗎？",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "是",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "否",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "不要再向我顯示摘要",
+	"articlesummaries-summary-cta-title": "簡易摘要",
+	"articlesummaries-summary-cta-subtitle": "嘗試閱讀實驗功能",
+	"articlesummaries-summary-cta-text": "部分條目頂部會顯示由機器產生的簡易摘要。您可以隨時關閉此功能。",
+	"articlesummaries-summary-cta-link": "了解更多",
+	"articlesummaries-summary-cta-button-enable": "啟用",
+	"articlesummaries-summary-cta-button-decline": "不用了，謝謝",
+	"articlesummaries-opt-out-title": "您確定嗎？",
+	"articlesummaries-opt-out-button-back": "返回",
+	"articlesummaries-opt-out-button-remove": "移除"
+}
