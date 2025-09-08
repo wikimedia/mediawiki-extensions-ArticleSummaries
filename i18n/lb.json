@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"GilPe",
 			"Volvox"
 		]
 	},
-	"articlesummaries-show-summary-text": "Resumé liesen",
-	"articlesummaries-summary-overlay-footer-feedback-question": "War dëse Resumé nëtzlech?",
+	"articlesummaries-show-summary-text": "Resümmee liesen",
+	"articlesummaries-summary-overlay-footer-feedback-question": "War dëse Resümmee nëtzlech?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Jo",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Nee",
 	"articlesummaries-summary-cta-title": "Einfach Resuméen",
@@ -13,5 +14,5 @@
 	"articlesummaries-summary-cta-button-enable": "Aktivéieren",
 	"articlesummaries-summary-cta-button-decline": "Nee, merci",
 	"articlesummaries-opt-out-title": "Sidd Dir sécher?",
-	"articlesummaries-opt-out-button-back": "Zréck"
+	"articlesummaries-opt-out-button-back": "Zeréck"
 }
