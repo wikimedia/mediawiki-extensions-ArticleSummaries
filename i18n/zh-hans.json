@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Peterxy12"
+			"Peterxy12",
+			"范"
 		]
 	},
 	"articlesummaries-desc": "这是一个提供文章摘要的扩展功能",
@@ -14,8 +15,8 @@
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "是",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "否",
 	"articlesummaries-summary-overlay-footer-opt-out-button": "不要再向我显示摘要",
-	"articlesummaries-summary-cta-title": "简洁摘要",
-	"articlesummaries-summary-cta-subtitle": "尝试阅读实验",
+	"articlesummaries-summary-cta-title": "简单语法",
+	"articlesummaries-summary-cta-subtitle": "试用阅读体验",
 	"articlesummaries-summary-cta-text": "阅读某些文章顶部由机器生成的简单摘要。您可以随时将其关闭。",
 	"articlesummaries-summary-cta-link": "了解更多",
 	"articlesummaries-summary-cta-button-enable": "启用",
