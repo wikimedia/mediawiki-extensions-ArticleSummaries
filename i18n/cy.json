@@ -1,0 +1,28 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ceirios"
+		]
+	},
+	"articlesummaries-desc": "Dyma ychwanegyn sy'n cynnig crynodeb o'r erthygl",
+	"articlesummaries-show-summary-text": "Darllen crynodeb",
+	"articlesummaries-show-summary-small": "Cynhyrchwyd gan beiriant ar $1",
+	"articlesummaries-summary-overlay-footer-header": "Sut y gwnaed hyn",
+	"articlesummaries-summary-overlay-notice": "Crynodeb a gynhyrchwyd gan beiriant",
+	"articlesummaries-summary-overlay-warning": "Heb ei ddilysu",
+	"articlesummaries-summary-overlay-footer-text-content": "Cynhyrchwyd y crynodeb hwn gan beiriant gan [[foundationsite:|Sefydliad Wikimedia]] drwy ddefnyddio [[w:en:Large_language_model|model iaith fawr]] o'r enw [https://cohere.com/research/aya Aya] ar $1. Mae hwn yn nodwedd arbrofol nad yw'n dilyn proses olygyddol dderbyniol Wicipedia. Nid yw'r crynodeb hwn wedi'i wirio am [[w:en:Wikipedia:Verifiability|cywirdeb gwiriadwy]] na [[w:en:Wikipedia:neutral_point_of_view|safbwynt niwtral]].",
+	"articlesummaries-summary-overlay-footer-feedback-question": "Oedd y crynodeb hwn yn ddefnyddiol?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Oedd",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "Nac oedd",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "Peidiwch â dangos crynodebau i mi eto",
+	"articlesummaries-summary-cta-title": "Crynodebau Syml",
+	"articlesummaries-summary-cta-subtitle": "Rhowch gynnig ar arbrawf darllen",
+	"articlesummaries-summary-cta-text": "Cewch ddarllen crynodebau syml a gynhyrchwyd gan beiriant ar frig rhai erthyglau. Gallwch ddiffodd yr ychwanegyn unrhyw bryd.",
+	"articlesummaries-summary-cta-link": "Dysgu mwy",
+	"articlesummaries-summary-cta-button-enable": "Galluogi",
+	"articlesummaries-summary-cta-button-decline": "Dim diolch",
+	"articlesummaries-opt-out-title": "Ydych chi'n siŵr?",
+	"articlesummaries-opt-out-text": "Bydd diffodd yr arbrawf crynodeb syml yn ei dynnu o'ch profiad darllen.",
+	"articlesummaries-opt-out-button-back": "Yn ôl",
+	"articlesummaries-opt-out-button-remove": "Tynnu"
+}
