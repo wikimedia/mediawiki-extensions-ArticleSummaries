@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hedda"
+			"Hedda",
+			"SaldırganSincap"
 		]
 	},
 	"articlesummaries-desc": "Bu, maddeyi özetlemeye yarayan bir eklentidir.",
@@ -10,7 +11,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Bu nasıl yapıldı",
 	"articlesummaries-summary-overlay-notice": "Otomatik özet",
 	"articlesummaries-summary-overlay-warning": "Onaylanmamış",
-	"articlesummaries-summary-overlay-footer-text-content": "Bu özet, [[foundationsite:|Wikimedia Vakfı]] tarafından [[w:tr:Büyük_dil_modeli|büyük dil modeli]] [https://cohere.com/research/aya Aya] kullanılarak $1 tarihinde otomatik olarak oluşturulmuştur. Bu, Vikipedi'nin kabul edilmiş editöryal süreçlerini takip etmeyen deneysel bir özelliktir. Bu özetin [[w:tr:Vikipedi:Doğrulanabilirlik|doğrulanabilirliği]] veya [[w:tr:Vikipedi:Tarafsız_bakış_açısı|tarafsız bakış açısı]] kontrol edilmemiştir.",
+	"articlesummaries-summary-overlay-footer-text-content": "Bu özet, [[foundationsite:|Wikimedia Vakfı]] tarafından [[w:en:Large_language_model|büyük dil modeli]] [https://cohere.com/research/aya Aya] kullanılarak $1 tarihinde otomatik olarak oluşturulmuştur. Bu, Vikipedi'nin kabul edilmiş editöryal süreçlerini takip etmeyen deneysel bir özelliktir. Bu özetin [[w:en:Wikipedia:Verifiability|doğrulanabilirliği]] veya [[w:en:Wikipedia:neutral_point_of_view|tarafsız bakış açısı]] kontrol edilmemiştir.",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Bu özet yardımcı oldu mu?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Evet",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Hayır",
