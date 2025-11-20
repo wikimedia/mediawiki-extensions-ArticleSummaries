@@ -10,7 +10,7 @@
 	"articlesummaries-summary-overlay-footer-header": "Како ова е направено",
 	"articlesummaries-summary-overlay-notice": "Машински создадено резиме",
 	"articlesummaries-summary-overlay-warning": "Непроверено",
-	"articlesummaries-summary-overlay-footer-text-content": "Ова резиме беше машински созададено за [[foundationsite:|Фондацијата Викимедија]] користејќи [[w:mk:Голем_јазичен_модел|голем јазичен модел]] наречен [https://cohere.com/research/aya Aya] на $1. Ова е експериментална функција која не се придржува до прифатениот уреднички процес на Википедија. [[w:mk:Википедија:Проверливост|Проверливата точност]] и [[w:mk:Википедија:Неутрална_гледна_точка|неутрална гледна точка]] на ова резиме не е проверена.",
+	"articlesummaries-summary-overlay-footer-text-content": "Ова резиме беше машински созададено за [[foundationsite:|Фондацијата Викимедија]] користејќи [[w:en:Large_language_model|голем јазичен модел]] наречен [https://cohere.com/research/aya Aya] на $1. Ова е експериментална функција која не се придржува до прифатениот уреднички процес на Википедија. [[w:en:Wikipedia:Verifiability|Проверливата точност]] и [[w:en:Wikipedia:neutral_point_of_view|неутрална гледна точка]] на ова резиме не е проверена.",
 	"articlesummaries-summary-overlay-footer-feedback-question": "Дали ова резиме ви беше корисно?",
 	"articlesummaries-summary-overlay-footer-feedback-options-yes": "Да",
 	"articlesummaries-summary-overlay-footer-feedback-options-no": "Не",
