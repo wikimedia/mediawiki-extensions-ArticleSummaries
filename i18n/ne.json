@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"articlesummaries-show-summary-text": "सारांश पढ्नुहोस्",
+	"articlesummaries-show-summary-small": "$1 मा मेसिनद्वारा उत्पन्न",
+	"articlesummaries-summary-overlay-footer-header": "यो कसरी बनाइयो",
+	"articlesummaries-summary-overlay-notice": "मेसिन-उत्पन्न सारांश",
+	"articlesummaries-summary-overlay-warning": "अप्रमाणित",
+	"articlesummaries-summary-overlay-footer-feedback-question": "के यो सारांश उपयोगी थियो?",
+	"articlesummaries-summary-overlay-footer-feedback-options-yes": "हो",
+	"articlesummaries-summary-overlay-footer-feedback-options-no": "होइन",
+	"articlesummaries-summary-overlay-footer-opt-out-button": "मलाई फेरि सारांशहरू नदेखाउनुहोस्",
+	"articlesummaries-summary-cta-title": "सरल सारांशहरू",
+	"articlesummaries-summary-cta-subtitle": "पढ्ने प्रयोग प्रयास गर्नुहोस्",
+	"articlesummaries-summary-cta-text": "केही लेखहरूको शीर्षमा मेसिन-उत्पन्न सरल सारांशहरू पढ्नुहोस्। तपाईं यसलाई जुनसुकै बेला बन्द गर्न सक्नुहुन्छ।",
+	"articlesummaries-summary-cta-link": "थप जान्नुहोस्",
+	"articlesummaries-summary-cta-button-enable": "सक्षम पार्नुहोस्",
+	"articlesummaries-summary-cta-button-decline": "पर्दैन, धन्यवाद",
+	"articlesummaries-opt-out-title": "निश्चित हुनुहुन्छ?",
+	"articlesummaries-opt-out-button-back": "पछाडि",
+	"articlesummaries-opt-out-button-remove": "हटाउनुहोस्"
+}
