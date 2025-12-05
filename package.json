@@ -11,6 +11,7 @@
 	},
 	"devDependencies": {
 		"eslint-config-wikimedia": "0.31.0",
+		"jest": "30.2.0",
 		"stylelint-config-wikimedia": "0.18.0"
 	},
 	"eslintIgnore": [
