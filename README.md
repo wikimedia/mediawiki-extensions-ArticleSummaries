@@ -1,21 +1,17 @@
-# Article Summaries
+# Article Summaries (Archived)
 
-A MediaWiki extension that runs an experiment that presents simple article summaries on mobile Wikipedia.
+⚠️ **This MediaWiki extension is archived and no longer maintained.**
 
-## Installation
+ArticleSummaries was an experimental extension that presented simple article summaries on mobile Wikis. The experiment has concluded, and this repository is retained **for historical reference only**.
 
-For information on how to install and use this extension, please see:
-    <https://www.mediawiki.org/wiki/Extension:ArticleSummaries>
 
-## Public API
+## Status
 
-To show the CTA modal programmatically, use the `cta.open` hook:
+- Not maintained
+- Not supported
+- Not accepting patches or feature requests
+- Not intended for installation on production wikis
 
-```javascript
-mw.hook('ext.articleSummaries.cta.open').fire();
-```
+The functionality previously contained in this extension has been deprecated and/or removed. Do not rely on this code.
 
-This will load and display the CTA modal
-
-To run Jest tests, run:
-    `npm run test:jest`
+Refer to [T411558](https://phabricator.wikimedia.org/T411558) for more information.
